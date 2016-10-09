@@ -1,0 +1,23 @@
+<map id="NVIC Defines" name="NVIC Defines">
+<area shape="rect" id="node1" href="$group__nvic__sysint.html" title="Cortex M0/M3/M4 System\l Interrupts" alt="" coords="308,5,484,47"/>
+<area shape="rect" id="node2" href="$group__CM3__nvic__defines__LM3S.html" title="User interrupts for\l LM3S series" alt="" coords="333,71,459,112"/>
+<area shape="rect" id="node3" href="$group__CM3__nvic__defines__SAM3A.html" title="User interrupts for\l Atmel SAM3A series" alt="" coords="322,136,470,177"/>
+<area shape="rect" id="node4" href="$group__CM3__nvic__defines__SAM3N.html" title="User interrupts for\l Atmel SAM3N series" alt="" coords="321,201,471,243"/>
+<area shape="rect" id="node5" href="$group__CM3__nvic__defines__SAM3S.html" title="User interrupts for\l Atmel SAM3S series" alt="" coords="322,267,470,308"/>
+<area shape="rect" id="node6" href="$group__CM3__nvic__defines__SAM3U.html" title="User interrupts for\l Atmel SAM3U series" alt="" coords="321,332,471,373"/>
+<area shape="rect" id="node7" href="$group__CM3__nvic__defines__SAM3X.html" title="User interrupts for\l Atmel SAM3X series" alt="" coords="322,397,470,439"/>
+<area shape="rect" id="node8" href="$group__CM3__defines.html" title="Defined Constants and Types for Cortex M3 core features. " alt="" coords="5,647,104,674"/>
+<area shape="rect" id="node9" href="$group__CM3__nvic__defines__EFM32LG.html" title="User interrupts for\l EFM32 Leopard Gecko\l series" alt="" coords="316,462,476,518"/>
+<area shape="rect" id="node10" href="$group__CM3__nvic__defines__LPC17xx.html" title="User interrupts for\l LPC 17xx series" alt="" coords="333,541,459,583"/>
+<area shape="rect" id="node11" href="$group__CM3__nvic__defines__LPC13xx.html" title="User interrupts for\l LPC 13xx series" alt="" coords="333,607,459,648"/>
+<area shape="rect" id="node12" href="$group__CM3__nvic__defines__EFM32G.html" title="User interrupts for\l EFM32 Gecko series" alt="" coords="321,672,471,713"/>
+<area shape="rect" id="node13" href="$group__CM3__nvic__defines__LPC43xx.html" title="(M0) User interrupts\l for LPC 43xx series\l M0 core" alt="" coords="325,737,467,793"/>
+<area shape="rect" id="node15" href="$group__CM3__nvic__defines__EFM32TG.html" title="User interrupts for\l EFM32 Tiny Gecko series" alt="" coords="307,816,485,857"/>
+<area shape="rect" id="node16" href="$group__CM3__nvic__defines__STM32F0.html" title="User interrupts for\l STM32 F0 series" alt="" coords="333,881,459,923"/>
+<area shape="rect" id="node17" href="$group__CM3__nvic__defines__STM32F1.html" title="User interrupts for\l STM32 F1 series" alt="" coords="333,947,459,988"/>
+<area shape="rect" id="node18" href="$group__CM3__nvic__defines__STM32F2.html" title="User interrupts for\l STM32 F2 series" alt="" coords="333,1012,459,1053"/>
+<area shape="rect" id="node19" href="$group__CM3__nvic__defines__STM32F3.html" title="User interrupts for\l STM32 F3 series" alt="" coords="333,1077,459,1119"/>
+<area shape="rect" id="node20" href="$group__CM3__nvic__defines__STM32F4.html" title="User interrupts for\l STM32 F4 series" alt="" coords="333,1143,459,1184"/>
+<area shape="rect" id="node21" href="$group__CM3__nvic__defines__STM32L1.html" title="User interrupts for\l STM32 L1 series" alt="" coords="333,1208,459,1249"/>
+<area shape="rect" id="node22" href="$group__CM3__nvic__defines__EFM32GG.html" title="User interrupts for\l EFM32 Giant Gecko series" alt="" coords="304,1273,488,1315"/>
+</map>

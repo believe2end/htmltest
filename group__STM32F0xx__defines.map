@@ -1,0 +1,22 @@
+<map id="STM32F0xx Defines" name="STM32F0xx Defines">
+<area shape="rect" id="node1" href="$group__rcc__defines.html" title="Defined Constants and Types for the LM4F Reset and Clock Control " alt="" coords="196,5,363,32"/>
+<area shape="rect" id="node2" href="$group__pwr__defines.html" title="Defined Constants and Types for the STM32F0xx PWR Control " alt="" coords="228,56,331,83"/>
+<area shape="rect" id="node3" href="$group__syscfg__defines.html" title="Defined Constants and Types for the STM32F0xx System Config " alt="" coords="216,107,343,133"/>
+<area shape="rect" id="node4" href="$group__crc__defines.html" title="libopencm3 Defined Constants and Types for the STM32F1xx CRC Generator &#160;" alt="" coords="229,157,330,184"/>
+<area shape="rect" id="node5" href="$group__dac__defines.html" title="Defined Constants and Types for the STM32F0xx Digital to Analog Converter " alt="" coords="229,208,329,235"/>
+<area shape="rect" id="node6" href="$group__CEC__defines.html" title="Defined Constants and Types for the STM32F0xx HDMI&#45;CEC " alt="" coords="229,259,329,285"/>
+<area shape="rect" id="node7" href="$group__i2c__defines.html" title="Defined Constants and Types for the LPC43xx I2C " alt="" coords="233,309,325,336"/>
+<area shape="rect" id="node8" href="$group__exti__defines.html" title="Defined Constants and Types for the STM32F0xx External Interrupts &#160;" alt="" coords="229,360,330,387"/>
+<area shape="rect" id="node9" href="$group__iwdg__defines.html" title="Defined Constants and Types for the STM32F0xx Independent Watchdog Timer " alt="" coords="225,411,333,437"/>
+<area shape="rect" id="node10" href="$group__spi__defines.html" title="Defined Constants and Types for the STM32F0xx SPI " alt="" coords="233,461,326,488"/>
+<area shape="rect" id="node12" href="$group__gpio__defines.html" title="Defined Constants and Types for the LM3S General Purpose I/O " alt="" coords="209,513,350,554"/>
+<area shape="rect" id="node13" href="$group__timer__defines.html" title="Defined Constants and Types for the LPC43xx timer " alt="" coords="252,579,307,605"/>
+<area shape="rect" id="node14" href="$group__CRS__defines.html" title="Defined Constants and Types for the STM32F0xx Clock Recovery " alt="" coords="229,629,329,656"/>
+<area shape="rect" id="node15" href="$group__adc__defines.html" title="Defined Constants and Types for the LPC43xx A/D Converter " alt="" coords="229,680,329,707"/>
+<area shape="rect" id="node16" href="$group__usart__defines.html" title="Defined Constants and Types for the STM32F0xx USART " alt="" coords="221,731,338,757"/>
+<area shape="rect" id="node17" href="$group__tsc__defines.html" title="Defined Constants and Types for the STM32F0xx Touch Sensor " alt="" coords="230,781,329,808"/>
+<area shape="rect" id="node18" href="$group__rtc__defines.html" title="Defined Constants and Types for the STM32F0xx RTC " alt="" coords="230,832,329,859"/>
+<area shape="rect" id="node19" href="$group__dma__defines.html" title="Defined Constants and Types for the STM32F0xx DMA Controller. " alt="" coords="229,883,330,909"/>
+<area shape="rect" id="node20" href="$group__comp__defines.html" title="libopencm3 Defined Constants and Types for the STM32F0xx Comparator module " alt="" coords="224,933,335,960"/>
+<area shape="rect" id="node21" href="$group__flash__defines.html" title="Defined Constants and Types for the STM32F0xx Flash memory " alt="" coords="222,984,337,1011"/>
+</map>

@@ -1,0 +1,253 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>My Project: GPIO Interrupt control</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li class="current"><a href="modules.html"><span>模块</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li><a href="examples.html"><span>示例</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle">
+<div class="title">GPIO Interrupt control<div class="ingroups"><a class="el" href="group__LM3Sxx.html">LM3S</a> &#124; <a class="el" href="group__LM4Fxx.html">LM4F</a> &#124; <a class="el" href="group__LPC13xx.html">LPC13xx</a> &#124; <a class="el" href="group__LPC17xx.html">LPC17xx</a> &#124; <a class="el" href="group__LPC43xx.html">LPC43xx</a> &#124; <a class="el" href="group__STM32F0xx.html">STM32F0xx</a> &#124; <a class="el" href="group__STM32F1xx.html">STM32F1xx</a> &#124; <a class="el" href="group__STM32F2xx.html">STM32F2xx</a> &#124; <a class="el" href="group__STM32F4xx.html">STM32F4xx</a> &#124; <a class="el" href="group__STM32L1xx.html">STM32L1xx</a> &raquo; <a class="el" href="group__gpio__file.html">General Purpose I/O</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><b>Configuring interrupts from GPIO pins</b>  
+<a href="#details">更多...</a></p>
+<div class="dynheader">
+GPIO Interrupt control 的协作图:</div>
+<div class="dyncontent">
+<center><table><tr><td><img src="group__gpio__irq.png" border="0" alt="" usemap="#group____gpio____irq"/>
+<map name="group____gpio____irq" id="group____gpio____irq">
+<area shape="rect" id="node1" href="group__gpio__file.html" title="LM3S General Purpose I/O " alt="" coords="5,5,147,32"/>
+</map>
+</td></tr></table></center>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:ga6a3a20a7f47ef2eb7c6efa9360f51fc9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__irq.html#ga6a3a20a7f47ef2eb7c6efa9360f51fc9">gpio_configure_trigger</a> (uint32_t gpioport, enum <a class="el" href="group__gpio__defines.html#gaf59a0ba6300bcfc24d4dbf13000a2fbe">gpio_trigger</a> trigger, uint8_t gpios)</td></tr>
+<tr class="memdesc:ga6a3a20a7f47ef2eb7c6efa9360f51fc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure the interrupt trigger on the given GPIO pins.  <a href="#ga6a3a20a7f47ef2eb7c6efa9360f51fc9">更多...</a><br /></td></tr>
+<tr class="separator:ga6a3a20a7f47ef2eb7c6efa9360f51fc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6647e613abe8223c2e78f773dfa279ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__irq.html#ga6647e613abe8223c2e78f773dfa279ce">gpio_enable_interrupts</a> (uint32_t gpioport, uint8_t gpios)</td></tr>
+<tr class="memdesc:ga6647e613abe8223c2e78f773dfa279ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable interrupts on specified GPIO pins.  <a href="#ga6647e613abe8223c2e78f773dfa279ce">更多...</a><br /></td></tr>
+<tr class="separator:ga6647e613abe8223c2e78f773dfa279ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa85cd2d1a8cbcfa7406e11afb15c1b6b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__irq.html#gaa85cd2d1a8cbcfa7406e11afb15c1b6b">gpio_disable_interrupts</a> (uint32_t gpioport, uint8_t gpios)</td></tr>
+<tr class="memdesc:gaa85cd2d1a8cbcfa7406e11afb15c1b6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable interrupts on specified GPIO pins.  <a href="#gaa85cd2d1a8cbcfa7406e11afb15c1b6b">更多...</a><br /></td></tr>
+<tr class="separator:gaa85cd2d1a8cbcfa7406e11afb15c1b6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<p><b>Configuring interrupts from GPIO pins</b> </p>
+<p>GPIO pins can trigger interrupts on either edges or levels. The type of trigger can be configured with gpio_configure_int_trigger(). To have an event on the given pin generate an interrupt, its interrupt source must be unmasked. This can be achieved with <a class="el" href="group__gpio__defines.html#ga6647e613abe8223c2e78f773dfa279ce">gpio_enable_interrupts()</a>. Interrupts which are no longer needed can be disabled through <a class="el" href="group__gpio__defines.html#gaa85cd2d1a8cbcfa7406e11afb15c1b6b">gpio_disable_interrupts()</a>.</p>
+<p>In order for the interrupt to generate an IRQ and a call to the interrupt service routine, the interrupt for the GPIO port must be routed through the NVIC with <a class="el" href="group__CM3__nvic__defines.html#ga8feba3782b3c6c173969f6ddcee3cfb6">nvic_enable_irq()</a>. For this last step, the nvic.h header is needed: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;libopencm3/lm4f/nvic.h&gt;</span></div></div><!-- fragment --><p>Enabling an interrupt is as simple as configuring the desired trigger, unmasking the desired interrupt, and routing the desired GPIO port's interrupt through the NVIC. </p><div class="fragment"><div class="line"><span class="comment">// Trigger interrupt on each rising edge</span></div><div class="line"><a class="code" href="group__gpio__defines.html#ga6a3a20a7f47ef2eb7c6efa9360f51fc9">gpio_configure_trigger</a>(GPIOF, <a class="code" href="group__gpio__defines.html#ggaf59a0ba6300bcfc24d4dbf13000a2fbeae7e4da82de08018b2a2283404ad0bb91">GPIO_TRIG_EDGE_RISE</a>, GPIO0 | GPIO4);</div><div class="line"><span class="comment">// Unmask the interrupt on those pins</span></div><div class="line"><a class="code" href="group__gpio__defines.html#ga6647e613abe8223c2e78f773dfa279ce">gpio_enable_interrupts</a>(GPIOF, GPIO0 | GPIO4);</div><div class="line"><span class="comment">// Enable the interrupt in the NVIC as well</span></div><div class="line"><a class="code" href="group__CM3__nvic__defines.html#ga8feba3782b3c6c173969f6ddcee3cfb6">nvic_enable_irq</a>(NVIC_GPIOF_IRQ);</div></div><!-- fragment --><p>After interrupts are properly enabled and routed through the NVIC, when an event occurs, the appropriate IRQ flag is set by hardware, and execution jumps to the GPIO ISR. The ISR should query the IRQ flags to determine which event caused the interrupt. For this, use gpio_is_interrupt_source(), with the desired GPIO flag. After one or more interrupt sources are serviced, the IRQ flags must be cleared by the ISR. This can be done with gpio_clear_interrupt_flag().</p>
+<p>A typical GPIO ISR may look like the following: </p><div class="fragment"><div class="line"><span class="keywordtype">void</span> gpiof_isr(<span class="keywordtype">void</span>)</div><div class="line">{</div><div class="line"> uint8_t serviced_irqs = 0;</div><div class="line"></div><div class="line"> <span class="comment">// Process individual IRQs</span></div><div class="line"> <span class="keywordflow">if</span> (gpio_is_interrupt_source(GPIOF, GPIO0)) {</div><div class="line">    process_gpio0_event();</div><div class="line">    serviced_irq |= GPIO0;</div><div class="line"> }</div><div class="line"> <span class="keywordflow">if</span> (gpio_is_interrupt_source(GPIOF, GPIO4)) {</div><div class="line">    process_gpio4_event();</div><div class="line">    serviced_irq |= GPIO4;</div><div class="line"> }</div><div class="line"></div><div class="line"> <span class="comment">// Clear the interupt flag for the processed IRQs</span></div><div class="line"> gpio_clear_interrupt_flag(GPIOF, serviced_irqs);</div><div class="line">}</div></div><!-- fragment --> <h2 class="groupheader">函数说明</h2>
+<a class="anchor" id="ga6a3a20a7f47ef2eb7c6efa9360f51fc9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gpio_configure_trigger </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>gpioport</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">enum <a class="el" href="group__gpio__defines.html#gaf59a0ba6300bcfc24d4dbf13000a2fbe">gpio_trigger</a>&#160;</td>
+          <td class="paramname"><em>trigger</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>gpios</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Configure the interrupt trigger on the given GPIO pins. </p>
+<p>Sets the Pin direction, analog/digital mode, and pull-up configuration of or a set of GPIO pins on a given GPIO port.</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>GPIO block register address base <a class="el" href="group__gpio__reg__base.html">GPIO register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">trigger</td><td>Trigger configuration (<a class="el" href="group__gpio__defines.html#gaf59a0ba6300bcfc24d4dbf13000a2fbe">gpio_trigger</a>) <br />
+<ul>
+<li>GPIO_TRIG_LVL_LOW &ndash; Trigger on low level <br />
+</li>
+<li>GPIO_TRIG_LVL_HIGH &ndash; Trigger on high level <br />
+</li>
+<li>GPIO_TRIG_EDGE_FALL &ndash; Trigger on falling edges <br />
+</li>
+<li>GPIO_TRIG_EDGE_RISE &ndash; Trigger on rising edges <br />
+</li>
+<li>GPIO_TRIG_EDGE_BOTH &ndash; Trigger on all edges </li>
+</ul>
+</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td><a class="el" href="group__gpio__pin__id.html">GPIO pin identifiers</a>. Any combination of pins may be specified by OR'ing then together </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="gaa85cd2d1a8cbcfa7406e11afb15c1b6b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gpio_disable_interrupts </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>gpioport</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>gpios</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disable interrupts on specified GPIO pins. </p>
+<p>Disable interrupts on the specified GPIO pins</p>
+<p>Note that the NVIC must be enabled and properly configured for the interrupt to be routed to the CPU.</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>GPIO block register address base <a class="el" href="group__gpio__reg__base.html">GPIO register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td><a class="el" href="group__gpio__pin__id.html">GPIO pin identifiers</a>. Pins whose interrupts to disable. Any combination of pins may be specified by OR'ing them together. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga6647e613abe8223c2e78f773dfa279ce"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gpio_enable_interrupts </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>gpioport</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>gpios</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enable interrupts on specified GPIO pins. </p>
+<p>Enable interrupts on the specified GPIO pins</p>
+<p>Note that the NVIC must be enabled and properly configured for the interrupt to be routed to the CPU.</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>GPIO block register address base <a class="el" href="group__gpio__reg__base.html">GPIO register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td><a class="el" href="group__gpio__pin__id.html">GPIO pin identifiers</a>. Pins whose interrupts to enable. Any combination of pins may be specified by OR'ing them together. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

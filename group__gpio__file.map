@@ -1,0 +1,15 @@
+<map id="General Purpose I/O" name="General Purpose I/O">
+<area shape="rect" id="node6" href="$group__gpio__config.html" title="Enabling and configuring GPIO pins " alt="" coords="336,183,491,209"/>
+<area shape="rect" id="node11" href="$group__gpio__irq.html" title="Configuring interrupts from GPIO pins " alt="" coords="338,233,489,260"/>
+<area shape="rect" id="node13" href="$group__gpio__control.html" title="Controlling GPIO pins " alt="" coords="354,284,473,311"/>
+<area shape="rect" id="node2" href="$group__LM4Fxx.html" title="LM4F" alt="" coords="25,5,79,32"/>
+<area shape="rect" id="node3" href="$group__LPC13xx.html" title="LPC13xx" alt="" coords="14,56,90,83"/>
+<area shape="rect" id="node4" href="$group__STM32F2xx.html" title="STM32F2xx" alt="" coords="5,107,99,133"/>
+<area shape="rect" id="node5" href="$group__LPC17xx.html" title="LPC17xx" alt="" coords="14,157,90,184"/>
+<area shape="rect" id="node7" href="$group__LPC43xx.html" title="LPC43xx" alt="" coords="14,208,90,235"/>
+<area shape="rect" id="node8" href="$group__LM3Sxx.html" title="LM3S" alt="" coords="24,259,80,285"/>
+<area shape="rect" id="node9" href="$group__STM32F4xx.html" title="STM32F4xx" alt="" coords="5,309,99,336"/>
+<area shape="rect" id="node10" href="$group__STM32F0xx.html" title="STM32F0xx" alt="" coords="5,360,99,387"/>
+<area shape="rect" id="node12" href="$group__STM32L1xx.html" title="STM32L1xx" alt="" coords="6,411,98,437"/>
+<area shape="rect" id="node14" href="$group__STM32F1xx.html" title="STM32F1xx" alt="" coords="5,461,99,488"/>
+</map>

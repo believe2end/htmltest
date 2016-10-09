@@ -1,0 +1,343 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>My Project: UART Interrupt control</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li class="current"><a href="modules.html"><span>模块</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li><a href="examples.html"><span>示例</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle">
+<div class="title">UART Interrupt control<div class="ingroups"><a class="el" href="group__LM4Fxx.html">LM4F</a> &raquo; <a class="el" href="group__uart__file.html">UART</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><b>Configuring interrupts from the UART</b>  
+<a href="#details">更多...</a></p>
+<div class="dynheader">
+UART Interrupt control 的协作图:</div>
+<div class="dyncontent">
+<center><table><tr><td><img src="group__uart__irq.png" border="0" alt="" usemap="#group____uart____irq"/>
+<map name="group____uart____irq" id="group____uart____irq">
+<area shape="rect" id="node1" href="group__uart__file.html" title="libopencm3 LM4F Universal Asynchronous Receiver Transmitter " alt="" coords="5,5,64,32"/>
+</map>
+</td></tr></table></center>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:ga20cf32aae3969a9b1e857cd1ca145a27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__uart__irq.html#ga20cf32aae3969a9b1e857cd1ca145a27">uart_enable_interrupts</a> (uint32_t uart, enum <a class="el" href="group__uart__defines.html#gad02c1455d23262a6dbda84d6053d1f7e">uart_interrupt_flag</a> ints)</td></tr>
+<tr class="memdesc:ga20cf32aae3969a9b1e857cd1ca145a27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable Specific UART Interrupts.  <a href="#ga20cf32aae3969a9b1e857cd1ca145a27">更多...</a><br /></td></tr>
+<tr class="separator:ga20cf32aae3969a9b1e857cd1ca145a27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2fdf35d91a90e2452368b0358d942f93"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__uart__irq.html#ga2fdf35d91a90e2452368b0358d942f93">uart_disable_interrupts</a> (uint32_t uart, enum <a class="el" href="group__uart__defines.html#gad02c1455d23262a6dbda84d6053d1f7e">uart_interrupt_flag</a> ints)</td></tr>
+<tr class="memdesc:ga2fdf35d91a90e2452368b0358d942f93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable Specific UART Interrupts.  <a href="#ga2fdf35d91a90e2452368b0358d942f93">更多...</a><br /></td></tr>
+<tr class="separator:ga2fdf35d91a90e2452368b0358d942f93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac40fe4cd2b2d331d83100e305c2f6f78"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__uart__irq.html#gac40fe4cd2b2d331d83100e305c2f6f78">uart_enable_rx_interrupt</a> (uint32_t uart)</td></tr>
+<tr class="memdesc:gac40fe4cd2b2d331d83100e305c2f6f78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable the UART Receive Interrupt.  <a href="#gac40fe4cd2b2d331d83100e305c2f6f78">更多...</a><br /></td></tr>
+<tr class="separator:gac40fe4cd2b2d331d83100e305c2f6f78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6c46b4228c1da4010f8e8d5a66bde0c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__uart__irq.html#ga6c46b4228c1da4010f8e8d5a66bde0c0">uart_disable_rx_interrupt</a> (uint32_t uart)</td></tr>
+<tr class="memdesc:ga6c46b4228c1da4010f8e8d5a66bde0c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable the UART Receive Interrupt.  <a href="#ga6c46b4228c1da4010f8e8d5a66bde0c0">更多...</a><br /></td></tr>
+<tr class="separator:ga6c46b4228c1da4010f8e8d5a66bde0c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaab2f52c4fdb9b8ba9e89670e93727ecf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__uart__irq.html#gaab2f52c4fdb9b8ba9e89670e93727ecf">uart_enable_tx_interrupt</a> (uint32_t uart)</td></tr>
+<tr class="memdesc:gaab2f52c4fdb9b8ba9e89670e93727ecf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable the UART Transmit Interrupt.  <a href="#gaab2f52c4fdb9b8ba9e89670e93727ecf">更多...</a><br /></td></tr>
+<tr class="separator:gaab2f52c4fdb9b8ba9e89670e93727ecf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2d6559da0d940412e88374af5fe8a5dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__uart__irq.html#ga2d6559da0d940412e88374af5fe8a5dc">uart_disable_tx_interrupt</a> (uint32_t uart)</td></tr>
+<tr class="memdesc:ga2d6559da0d940412e88374af5fe8a5dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable the UART Transmit Interrupt.  <a href="#ga2d6559da0d940412e88374af5fe8a5dc">更多...</a><br /></td></tr>
+<tr class="separator:ga2d6559da0d940412e88374af5fe8a5dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab5fd7ee81bc609e4aca33a4b9079611b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__uart__irq.html#gab5fd7ee81bc609e4aca33a4b9079611b">uart_clear_interrupt_flag</a> (uint32_t uart, enum <a class="el" href="group__uart__defines.html#gad02c1455d23262a6dbda84d6053d1f7e">uart_interrupt_flag</a> ints)</td></tr>
+<tr class="memdesc:gab5fd7ee81bc609e4aca33a4b9079611b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark interrupt as serviced.  <a href="#gab5fd7ee81bc609e4aca33a4b9079611b">更多...</a><br /></td></tr>
+<tr class="separator:gab5fd7ee81bc609e4aca33a4b9079611b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<p><b>Configuring interrupts from the UART</b> </p>
+<p>To have an event generate an interrupt, its interrupt source must be unmasked. This can be achieved with <a class="el" href="group__uart__defines.html#ga20cf32aae3969a9b1e857cd1ca145a27">uart_enable_interrupts()</a>. Interrupts which are no longer needed can be disabled through <a class="el" href="group__uart__defines.html#ga2fdf35d91a90e2452368b0358d942f93">uart_disable_interrupts()</a>.</p>
+<p>In order for the interrupt to generate an IRQ and a call to the interrupt service routine, the interrupt for the target UART must be routed through the NVIC with <a class="el" href="group__CM3__nvic__defines.html#ga8feba3782b3c6c173969f6ddcee3cfb6">nvic_enable_irq()</a>. For this last step, the nvic.h header is needed: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;libopencm3/lm4f/nvic.h&gt;</span></div></div><!-- fragment --><p>Enabling an interrupt is as simple as unmasking the desired interrupt, and routing the desired UART's interrupt through the NVIC. </p><div class="fragment"><div class="line"><span class="comment">// Unmask receive interrupt</span></div><div class="line"><a class="code" href="group__uart__defines.html#gac40fe4cd2b2d331d83100e305c2f6f78">uart_enable_rx_interrupt</a>(UART0);</div><div class="line"><span class="comment">// Make sure the interrupt is routed through the NVIC</span></div><div class="line"><a class="code" href="group__CM3__nvic__defines.html#ga8feba3782b3c6c173969f6ddcee3cfb6">nvic_enable_irq</a>(NVIC_UART0_IRQ);</div></div><!-- fragment --><p>If a more than one interrupt is to be enabled at one time, the interrupts can be enabled by a single call to <a class="el" href="group__uart__defines.html#ga20cf32aae3969a9b1e857cd1ca145a27">uart_enable_interrupts()</a>. For example: </p><div class="fragment"><div class="line"><span class="comment">// Unmask receive, CTS, and RI, interrupts</span></div><div class="line"><a class="code" href="group__uart__defines.html#ga20cf32aae3969a9b1e857cd1ca145a27">uart_enable_interrupts</a>(UART0, UART_INT_RX | UART_INT_RI | UART_INT_CTS);</div></div><!-- fragment --><p>After interrupts are properly enabled and routed through the NVIC, when an event occurs, the appropriate IRQ flag is set by hardware, and execution jumps to the UART ISR. The ISR should query the IRQ flags to determine which event caused the interrupt. For this, use uart_is_interrupt_source(), with the desired UART_INT flag. After one or more interrupt sources are serviced, the IRQ flags must be cleared by the ISR. This can be done with <a class="el" href="group__uart__defines.html#gab5fd7ee81bc609e4aca33a4b9079611b">uart_clear_interrupt_flag()</a>.</p>
+<p>A typical UART ISR may look like the following: </p><div class="fragment"><div class="line"><span class="keywordtype">void</span> uart0_isr(<span class="keywordtype">void</span>)</div><div class="line">{</div><div class="line"> uint32_t serviced_irqs = 0;</div><div class="line"></div><div class="line"> <span class="comment">// Process individual IRQs</span></div><div class="line"> <span class="keywordflow">if</span> (uart_is_interrupt_source(UART0, UART_INT_RX)) {</div><div class="line">    process_rx_event();</div><div class="line">    serviced_irq |= UART_INT_RX;</div><div class="line"> }</div><div class="line"> <span class="keywordflow">if</span> (uart_is_interrupt_source(UART0, UART_INT_CTS)) {</div><div class="line">    process_cts_event();</div><div class="line">    serviced_irq |= UART_INT_CTS;</div><div class="line"> }</div><div class="line"></div><div class="line"> <span class="comment">// Clear the interupt flag for the processed IRQs</span></div><div class="line"> <a class="code" href="group__uart__defines.html#gab5fd7ee81bc609e4aca33a4b9079611b">uart_clear_interrupt_flag</a>(UART0, serviced_irqs);</div><div class="line">}</div></div><!-- fragment --> <h2 class="groupheader">函数说明</h2>
+<a class="anchor" id="gab5fd7ee81bc609e4aca33a4b9079611b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void uart_clear_interrupt_flag </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>uart</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">enum <a class="el" href="group__uart__defines.html#gad02c1455d23262a6dbda84d6053d1f7e">uart_interrupt_flag</a>&#160;</td>
+          <td class="paramname"><em>ints</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Mark interrupt as serviced. </p>
+<p>After an interrupt is services, its flag must be cleared. If the flag is not cleared, then execution will jump back to the start of the ISR after the ISR returns.</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">uart</td><td>UART block register address base <a class="el" href="group__uart__reg__base.html">UART register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ints</td><td>Interrupts which to clear. Any combination of interrupts may be specified by OR'ing then together </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga2fdf35d91a90e2452368b0358d942f93"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void uart_disable_interrupts </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>uart</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">enum <a class="el" href="group__uart__defines.html#gad02c1455d23262a6dbda84d6053d1f7e">uart_interrupt_flag</a>&#160;</td>
+          <td class="paramname"><em>ints</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enable Specific UART Interrupts. </p>
+<p>Disabe any combination of interrupts. Interrupts may be OR'ed together to disable them with one call. For example, to disable both the RX and CTS interrupts, pass (UART_INT_RX | UART_INT_CTS)</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">uart</td><td>UART block register address base <a class="el" href="group__uart__reg__base.html">UART register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ints</td><td>Interrupts which to disable. Any combination of interrupts may be specified by OR'ing then together </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga6c46b4228c1da4010f8e8d5a66bde0c0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void uart_disable_rx_interrupt </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>uart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disable the UART Receive Interrupt. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">uart</td><td>UART block register address base <a class="el" href="group__uart__reg__base.html">UART register base addresses</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga2d6559da0d940412e88374af5fe8a5dc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void uart_disable_tx_interrupt </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>uart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disable the UART Transmit Interrupt. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">uart</td><td>UART block register address base <a class="el" href="group__uart__reg__base.html">UART register base addresses</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga20cf32aae3969a9b1e857cd1ca145a27"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void uart_enable_interrupts </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>uart</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">enum <a class="el" href="group__uart__defines.html#gad02c1455d23262a6dbda84d6053d1f7e">uart_interrupt_flag</a>&#160;</td>
+          <td class="paramname"><em>ints</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enable Specific UART Interrupts. </p>
+<p>Enable any combination of interrupts. Interrupts may be OR'ed together to enable them with one call. For example, to enable both the RX and CTS interrupts, pass (UART_INT_RX | UART_INT_CTS)</p>
+<p>Note that the NVIC must be enabled and properly configured for the interrupt to be routed to the CPU.</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">uart</td><td>UART block register address base <a class="el" href="group__uart__reg__base.html">UART register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ints</td><td>Interrupts which to enable. Any combination of interrupts may be specified by OR'ing then together </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="gac40fe4cd2b2d331d83100e305c2f6f78"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void uart_enable_rx_interrupt </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>uart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enable the UART Receive Interrupt. </p>
+<p>Note that the NVIC must be enabled and properly configured for the interrupt to be routed to the CPU.</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">uart</td><td>UART block register address base <a class="el" href="group__uart__reg__base.html">UART register base addresses</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="gaab2f52c4fdb9b8ba9e89670e93727ecf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void uart_enable_tx_interrupt </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>uart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enable the UART Transmit Interrupt. </p>
+<p>Note that the NVIC must be enabled and properly configured for the interrupt to be routed to the CPU.</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">uart</td><td>UART block register address base <a class="el" href="group__uart__reg__base.html">UART register base addresses</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

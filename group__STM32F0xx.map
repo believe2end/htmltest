@@ -1,0 +1,19 @@
+<map id="STM32F0xx" name="STM32F0xx">
+<area shape="rect" id="node1" href="$group__gpio__file.html" title="LM3S General Purpose I/O " alt="" coords="147,5,288,32"/>
+<area shape="rect" id="node2" href="$group__dac__file.html" title="libopencm3 STM32F0xx DAC " alt="" coords="192,56,243,83"/>
+<area shape="rect" id="node3" href="$group__usart__file.html" title="libopencm3 STM32F0xx USART " alt="" coords="183,107,251,133"/>
+<area shape="rect" id="node4" href="$group__STM32F0xx-rcc-file.html" title="libopencm3 STM32F0xx Reset and Clock Control " alt="" coords="191,157,243,184"/>
+<area shape="rect" id="node5" href="$group__crs__file.html" title="libopencm3 STM32F0xx Clock Recovery Subsystem " alt="" coords="192,208,243,235"/>
+<area shape="rect" id="node6" href="$group__iwdg__file.html" title="libopencm3 STM32F0xx Independent Watchdog Timer " alt="" coords="188,259,247,285"/>
+<area shape="rect" id="node7" href="$group__dma__file.html" title="libopencm3 STM32F0xx DMA " alt="" coords="191,309,243,336"/>
+<area shape="rect" id="node8" href="$group__syscfg__file.html" title="libopencm3 STM32F0xx SYSCFG " alt="" coords="179,360,256,387"/>
+<area shape="rect" id="node9" href="$group__comp__file.html" title="libopencm3 STM32F0xx COMP " alt="" coords="186,411,249,437"/>
+<area shape="rect" id="node10" href="$group__pwr__file.html" title="libopencm3 STM32F0xx Power Control " alt="" coords="190,461,245,488"/>
+<area shape="rect" id="node11" href="$group__rtc__file.html" title="libopencm3 STM32F0xx RTC " alt="" coords="192,512,243,539"/>
+<area shape="rect" id="node12" href="$group__spi__file.html" title="libopencm3 STM32F0xx SPI " alt="" coords="195,563,239,589"/>
+<area shape="rect" id="node14" href="$group__crc__file.html" title="libopencm3 STM32F0xx CRC " alt="" coords="191,613,243,640"/>
+<area shape="rect" id="node15" href="$group__adc__file.html" title="libopencm3 STM32F0xx Analog to Digital Converters " alt="" coords="192,664,243,691"/>
+<area shape="rect" id="node16" href="$group__i2c__file.html" title="libopencm3 LPC43xx I2C " alt="" coords="196,715,239,741"/>
+<area shape="rect" id="node17" href="$group__flash__file.html" title="libopencm3 STM32F05x FLASH " alt="" coords="185,765,250,792"/>
+<area shape="rect" id="node18" href="$group__timer__file.html" title="libopencm3 STM32F0xx Timers " alt="" coords="186,816,249,843"/>
+</map>

@@ -1,0 +1,1212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>My Project: SDIO</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li class="current"><a href="modules.html"><span>模块</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li><a href="examples.html"><span>示例</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">类</a> &#124;
+<a href="#define-members">宏定义</a>  </div>
+  <div class="headertitle">
+<div class="title">SDIO<div class="ingroups"><a class="el" href="group__LPC43xx__defines.html">LPC43xx Defines</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><b>Defined Constants and Types for the LPC43xx SDIO</b>  
+<a href="#details">更多...</a></p>
+<div class="dynheader">
+SDIO 的协作图:</div>
+<div class="dyncontent">
+<center><table><tr><td><img src="group__sdio__defines.png" border="0" alt="" usemap="#group____sdio____defines"/>
+<map name="group____sdio____defines" id="group____sdio____defines">
+<area shape="rect" id="node1" href="group__LPC43xx__defines.html" title="Defined Constants and Types for the LPC43xx series. " alt="" coords="5,5,131,32"/>
+</map>
+</td></tr></table></center>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+类</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsgpio__t.html">sgpio_t</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+宏定义</h2></td></tr>
+<tr class="memitem:gae61a0e925a0a46667d4baf38299b4033"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae61a0e925a0a46667d4baf38299b4033"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_CTRL</b>&#160;&#160;&#160;MMIO32(SDIO_BASE + 0x000)</td></tr>
+<tr class="separator:gae61a0e925a0a46667d4baf38299b4033"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1ae1ca989e198f0b5268e5b327dcad76"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga1ae1ca989e198f0b5268e5b327dcad76"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_PWREN</b>&#160;&#160;&#160;MMIO32(SDIO_BASE + 0x004)</td></tr>
+<tr class="separator:ga1ae1ca989e198f0b5268e5b327dcad76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7be7e06cb09012bd33945a6220d27649"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga7be7e06cb09012bd33945a6220d27649"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_CLKDIV</b>&#160;&#160;&#160;MMIO32(SDIO_BASE + 0x008)</td></tr>
+<tr class="separator:ga7be7e06cb09012bd33945a6220d27649"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa0d5b6ffffb77c56b96ca58173ed3998"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa0d5b6ffffb77c56b96ca58173ed3998"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_CLKSRC</b>&#160;&#160;&#160;MMIO32(SDIO_BASE + 0x00C)</td></tr>
+<tr class="separator:gaa0d5b6ffffb77c56b96ca58173ed3998"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga34b2a0650334a3d8936056fb7daedf27"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga34b2a0650334a3d8936056fb7daedf27"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_CLKENA</b>&#160;&#160;&#160;MMIO32(SDIO_BASE + 0x010)</td></tr>
+<tr class="separator:ga34b2a0650334a3d8936056fb7daedf27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7543e66e1ca7d831346694fe0f6aae25"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga7543e66e1ca7d831346694fe0f6aae25"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_TMOUT</b>&#160;&#160;&#160;MMIO32(SDIO_BASE + 0x014)</td></tr>
+<tr class="separator:ga7543e66e1ca7d831346694fe0f6aae25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga207a8e6ff8f14039d2a2d966cbf2c5a4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga207a8e6ff8f14039d2a2d966cbf2c5a4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_CTYPE</b>&#160;&#160;&#160;MMIO32(SDIO_BASE + 0x018)</td></tr>
+<tr class="separator:ga207a8e6ff8f14039d2a2d966cbf2c5a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9911648ed350614a6cf17cbb0d4b8fe3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga9911648ed350614a6cf17cbb0d4b8fe3"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_BLKSIZ</b>&#160;&#160;&#160;MMIO32(SDIO_BASE + 0x01C)</td></tr>
+<tr class="separator:ga9911648ed350614a6cf17cbb0d4b8fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5fdfe7433c93bf31d577411c336e532c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga5fdfe7433c93bf31d577411c336e532c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_BYTCNT</b>&#160;&#160;&#160;MMIO32(SDIO_BASE + 0x020)</td></tr>
+<tr class="separator:ga5fdfe7433c93bf31d577411c336e532c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5fbb64b8e675b2f99e95865597c85d68"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga5fbb64b8e675b2f99e95865597c85d68"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_INTMASK</b>&#160;&#160;&#160;MMIO32(SDIO_BASE + 0x024)</td></tr>
+<tr class="separator:ga5fbb64b8e675b2f99e95865597c85d68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga59315e1407768cbc45dd1af682f266c7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga59315e1407768cbc45dd1af682f266c7"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_CMDARG</b>&#160;&#160;&#160;MMIO32(SDIO_BASE + 0x028)</td></tr>
+<tr class="separator:ga59315e1407768cbc45dd1af682f266c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadd81ac85147ce712606b5bd7b83b8bb1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gadd81ac85147ce712606b5bd7b83b8bb1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_CMD</b>&#160;&#160;&#160;MMIO32(SDIO_BASE + 0x02C)</td></tr>
+<tr class="separator:gadd81ac85147ce712606b5bd7b83b8bb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9dd1efc75a20ae8263840bf6fa17af61"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga9dd1efc75a20ae8263840bf6fa17af61"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_RESP0</b>&#160;&#160;&#160;MMIO32(SDIO_BASE + 0x030)</td></tr>
+<tr class="separator:ga9dd1efc75a20ae8263840bf6fa17af61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9d78943952cf0e36736313d949520a2d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga9d78943952cf0e36736313d949520a2d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_RESP1</b>&#160;&#160;&#160;MMIO32(SDIO_BASE + 0x034)</td></tr>
+<tr class="separator:ga9d78943952cf0e36736313d949520a2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabd551272af4161844b5358fd3c3c379c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gabd551272af4161844b5358fd3c3c379c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_RESP2</b>&#160;&#160;&#160;MMIO32(SDIO_BASE + 0x038)</td></tr>
+<tr class="separator:gabd551272af4161844b5358fd3c3c379c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae9887669a72395d54d600829a959d2f4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae9887669a72395d54d600829a959d2f4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_RESP3</b>&#160;&#160;&#160;MMIO32(SDIO_BASE + 0x03C)</td></tr>
+<tr class="separator:gae9887669a72395d54d600829a959d2f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga19c59a6f7299cd8f486f638110b25c23"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga19c59a6f7299cd8f486f638110b25c23"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_MINTSTS</b>&#160;&#160;&#160;MMIO32(SDIO_BASE + 0x040)</td></tr>
+<tr class="separator:ga19c59a6f7299cd8f486f638110b25c23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9360719840c09cb0966aea8dcb21f451"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga9360719840c09cb0966aea8dcb21f451"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_RINTSTS</b>&#160;&#160;&#160;MMIO32(SDIO_BASE + 0x044)</td></tr>
+<tr class="separator:ga9360719840c09cb0966aea8dcb21f451"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9776bbe35aff66be7d3c4402ad2d15f0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga9776bbe35aff66be7d3c4402ad2d15f0"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_STATUS</b>&#160;&#160;&#160;MMIO32(SDIO_BASE + 0x048)</td></tr>
+<tr class="separator:ga9776bbe35aff66be7d3c4402ad2d15f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga691699f45c0ae2ccc1db08aa253bc9f9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga691699f45c0ae2ccc1db08aa253bc9f9"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_FIFOTH</b>&#160;&#160;&#160;MMIO32(SDIO_BASE + 0x04C)</td></tr>
+<tr class="separator:ga691699f45c0ae2ccc1db08aa253bc9f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaefe117eb0e2c9340df1ec6b4adc63cdf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaefe117eb0e2c9340df1ec6b4adc63cdf"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_CDETECT</b>&#160;&#160;&#160;MMIO32(SDIO_BASE + 0x050)</td></tr>
+<tr class="separator:gaefe117eb0e2c9340df1ec6b4adc63cdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf53a87815a6f235e16af2433dc3ff5cf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaf53a87815a6f235e16af2433dc3ff5cf"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_WRTPRT</b>&#160;&#160;&#160;MMIO32(SDIO_BASE + 0x054)</td></tr>
+<tr class="separator:gaf53a87815a6f235e16af2433dc3ff5cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7c65742f32741a8ce5df8797f430a8db"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga7c65742f32741a8ce5df8797f430a8db"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_TCBCNT</b>&#160;&#160;&#160;MMIO32(SDIO_BASE + 0x05C)</td></tr>
+<tr class="separator:ga7c65742f32741a8ce5df8797f430a8db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga963dd35a6835b179aa17055d88319897"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga963dd35a6835b179aa17055d88319897"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_TBBCNT</b>&#160;&#160;&#160;MMIO32(SDIO_BASE + 0x060)</td></tr>
+<tr class="separator:ga963dd35a6835b179aa17055d88319897"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2a541a418eb9fef58bafe793f0af6148"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga2a541a418eb9fef58bafe793f0af6148"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_DEBNCE</b>&#160;&#160;&#160;MMIO32(SDIO_BASE + 0x064)</td></tr>
+<tr class="separator:ga2a541a418eb9fef58bafe793f0af6148"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2975a16f2984d614a134661539afc0e9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga2975a16f2984d614a134661539afc0e9"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_UHS_REG</b>&#160;&#160;&#160;MMIO32(SDIO_BASE + 0x074)</td></tr>
+<tr class="separator:ga2975a16f2984d614a134661539afc0e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5c4867f38653cbba004668c6e175fa21"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga5c4867f38653cbba004668c6e175fa21"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_RST_N</b>&#160;&#160;&#160;MMIO32(SDIO_BASE + 0x078)</td></tr>
+<tr class="separator:ga5c4867f38653cbba004668c6e175fa21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga36cdd2eb60f959fa9fecdbb369e76548"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga36cdd2eb60f959fa9fecdbb369e76548"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_BMOD</b>&#160;&#160;&#160;MMIO32(SDIO_BASE + 0x080)</td></tr>
+<tr class="separator:ga36cdd2eb60f959fa9fecdbb369e76548"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga60f49625eb6db32cd19443e412b3785a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga60f49625eb6db32cd19443e412b3785a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_PLDMND</b>&#160;&#160;&#160;MMIO32(SDIO_BASE + 0x084)</td></tr>
+<tr class="separator:ga60f49625eb6db32cd19443e412b3785a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga68294284a41e7e4bd1bd53a969a433cf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga68294284a41e7e4bd1bd53a969a433cf"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_DBADDR</b>&#160;&#160;&#160;MMIO32(SDIO_BASE + 0x088)</td></tr>
+<tr class="separator:ga68294284a41e7e4bd1bd53a969a433cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6c999d9caad84d34aa85177b28e750d8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga6c999d9caad84d34aa85177b28e750d8"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_IDSTS</b>&#160;&#160;&#160;MMIO32(SDIO_BASE + 0x08C)</td></tr>
+<tr class="separator:ga6c999d9caad84d34aa85177b28e750d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabee261a81b7f765d7667a026a3c03d46"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gabee261a81b7f765d7667a026a3c03d46"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_IDINTEN</b>&#160;&#160;&#160;MMIO32(SDIO_BASE + 0x090)</td></tr>
+<tr class="separator:gabee261a81b7f765d7667a026a3c03d46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacef8dd92966c2ba68888d9706c21f3f0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gacef8dd92966c2ba68888d9706c21f3f0"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_DSCADDR</b>&#160;&#160;&#160;MMIO32(SDIO_BASE + 0x094)</td></tr>
+<tr class="separator:gacef8dd92966c2ba68888d9706c21f3f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2217fe09a2dc72a848b09aef8632ed1c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga2217fe09a2dc72a848b09aef8632ed1c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_BUFADDR</b>&#160;&#160;&#160;MMIO32(SDIO_BASE + 0x098)</td></tr>
+<tr class="separator:ga2217fe09a2dc72a848b09aef8632ed1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4e543d45f88a3167b37a17b475d7e7a3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga4e543d45f88a3167b37a17b475d7e7a3"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_DATA</b>&#160;&#160;&#160;MMIO32(SDIO_BASE + 0x100)</td></tr>
+<tr class="separator:ga4e543d45f88a3167b37a17b475d7e7a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3747722143164caa0e06ea491e5a178e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga3747722143164caa0e06ea491e5a178e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_OUT_MUX_CFG</b>(pin)&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + (pin * 0x04))</td></tr>
+<tr class="separator:ga3747722143164caa0e06ea491e5a178e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac08bd1345e32ebe48a72dc42fb235d62"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gac08bd1345e32ebe48a72dc42fb235d62"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_OUT_MUX_CFG0</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x00)</td></tr>
+<tr class="separator:gac08bd1345e32ebe48a72dc42fb235d62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2279bcb07f270cedcc72b8e876deda8e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga2279bcb07f270cedcc72b8e876deda8e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_OUT_MUX_CFG1</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x04)</td></tr>
+<tr class="separator:ga2279bcb07f270cedcc72b8e876deda8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4cbeda870970ceeda740259f1368515e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga4cbeda870970ceeda740259f1368515e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_OUT_MUX_CFG2</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x08)</td></tr>
+<tr class="separator:ga4cbeda870970ceeda740259f1368515e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga98ff1d4db7f4b8d21b002fb0706c78a0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga98ff1d4db7f4b8d21b002fb0706c78a0"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_OUT_MUX_CFG3</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x0C)</td></tr>
+<tr class="separator:ga98ff1d4db7f4b8d21b002fb0706c78a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaba82d74f15e8a379d793411b94f43eb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaaba82d74f15e8a379d793411b94f43eb"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_OUT_MUX_CFG4</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x10)</td></tr>
+<tr class="separator:gaaba82d74f15e8a379d793411b94f43eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8c0965fc5ed828014376238f54176b6f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga8c0965fc5ed828014376238f54176b6f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_OUT_MUX_CFG5</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x14)</td></tr>
+<tr class="separator:ga8c0965fc5ed828014376238f54176b6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga99d1b5769ca9f7ec360e86f6f03e6c93"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga99d1b5769ca9f7ec360e86f6f03e6c93"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_OUT_MUX_CFG6</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x18)</td></tr>
+<tr class="separator:ga99d1b5769ca9f7ec360e86f6f03e6c93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4c614f9fcd5ba0b3e9db9de5601a09a3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga4c614f9fcd5ba0b3e9db9de5601a09a3"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_OUT_MUX_CFG7</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x1C)</td></tr>
+<tr class="separator:ga4c614f9fcd5ba0b3e9db9de5601a09a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0c285373baff9e28cfa2717dd292dd28"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga0c285373baff9e28cfa2717dd292dd28"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_OUT_MUX_CFG8</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x20)</td></tr>
+<tr class="separator:ga0c285373baff9e28cfa2717dd292dd28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa3543db207906e74cdc7ec8864d51852"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa3543db207906e74cdc7ec8864d51852"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_OUT_MUX_CFG9</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x24)</td></tr>
+<tr class="separator:gaa3543db207906e74cdc7ec8864d51852"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4763ba72f28a7a742891d454dc4e2231"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga4763ba72f28a7a742891d454dc4e2231"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_OUT_MUX_CFG10</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x28)</td></tr>
+<tr class="separator:ga4763ba72f28a7a742891d454dc4e2231"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadaa8e7dbb64c680d9e3dcb974caf41da"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gadaa8e7dbb64c680d9e3dcb974caf41da"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_OUT_MUX_CFG11</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x2C)</td></tr>
+<tr class="separator:gadaa8e7dbb64c680d9e3dcb974caf41da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7748ebccc0565a9130423b05748b0ffe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga7748ebccc0565a9130423b05748b0ffe"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_OUT_MUX_CFG12</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x30)</td></tr>
+<tr class="separator:ga7748ebccc0565a9130423b05748b0ffe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4b030ea10fb2ef6a8d86a566d98f9691"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga4b030ea10fb2ef6a8d86a566d98f9691"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_OUT_MUX_CFG13</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x34)</td></tr>
+<tr class="separator:ga4b030ea10fb2ef6a8d86a566d98f9691"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaf22ba1367a3cc652c5011ce52c3d1bf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaaf22ba1367a3cc652c5011ce52c3d1bf"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_OUT_MUX_CFG14</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x38)</td></tr>
+<tr class="separator:gaaf22ba1367a3cc652c5011ce52c3d1bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2f3c8118a8dec3201b6fb1d7ee53cae4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga2f3c8118a8dec3201b6fb1d7ee53cae4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_OUT_MUX_CFG15</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x3C)</td></tr>
+<tr class="separator:ga2f3c8118a8dec3201b6fb1d7ee53cae4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga23885e3f72bc5475f56abead09266dfb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG</b>(slice)</td></tr>
+<tr class="separator:ga23885e3f72bc5475f56abead09266dfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf5ce65fc7760e99c7c952f6b43e04950"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaf5ce65fc7760e99c7c952f6b43e04950"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG0</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x40)</td></tr>
+<tr class="separator:gaf5ce65fc7760e99c7c952f6b43e04950"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7677cf617baa1d0c98aa1fddf9e65b6c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga7677cf617baa1d0c98aa1fddf9e65b6c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG1</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x44)</td></tr>
+<tr class="separator:ga7677cf617baa1d0c98aa1fddf9e65b6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafd535b80eea828ffd70cf74ba97234ef"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gafd535b80eea828ffd70cf74ba97234ef"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG2</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x48)</td></tr>
+<tr class="separator:gafd535b80eea828ffd70cf74ba97234ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0bb993b8893c4621aae8c67e937f50d6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga0bb993b8893c4621aae8c67e937f50d6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG3</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x4C)</td></tr>
+<tr class="separator:ga0bb993b8893c4621aae8c67e937f50d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0d42a4785b5ae5a26abe9fe23018082d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga0d42a4785b5ae5a26abe9fe23018082d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG4</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x50)</td></tr>
+<tr class="separator:ga0d42a4785b5ae5a26abe9fe23018082d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga67cef3ee463eca65e5c4f4d9abf365cc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga67cef3ee463eca65e5c4f4d9abf365cc"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG5</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x54)</td></tr>
+<tr class="separator:ga67cef3ee463eca65e5c4f4d9abf365cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabb3d53294227724d3935e49ed8f1952b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gabb3d53294227724d3935e49ed8f1952b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG6</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x58)</td></tr>
+<tr class="separator:gabb3d53294227724d3935e49ed8f1952b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga57814c06cf2caa3a331e60488a1d2b6b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga57814c06cf2caa3a331e60488a1d2b6b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG7</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x5C)</td></tr>
+<tr class="separator:ga57814c06cf2caa3a331e60488a1d2b6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4eab26d913424c1a242dfd7043b377a8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga4eab26d913424c1a242dfd7043b377a8"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG8</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x60)</td></tr>
+<tr class="separator:ga4eab26d913424c1a242dfd7043b377a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2c2193a4d16bb114d0f65a098f1825d1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga2c2193a4d16bb114d0f65a098f1825d1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG9</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x64)</td></tr>
+<tr class="separator:ga2c2193a4d16bb114d0f65a098f1825d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga371fa639536a75de130ab0b8f379b6ed"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga371fa639536a75de130ab0b8f379b6ed"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG10</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x68)</td></tr>
+<tr class="separator:ga371fa639536a75de130ab0b8f379b6ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad4f31adbb8a011e1cd04c5c86d654d9b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gad4f31adbb8a011e1cd04c5c86d654d9b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG11</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x6C)</td></tr>
+<tr class="separator:gad4f31adbb8a011e1cd04c5c86d654d9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab352314eade9f54ef09839834093d0b4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gab352314eade9f54ef09839834093d0b4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG12</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x70)</td></tr>
+<tr class="separator:gab352314eade9f54ef09839834093d0b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5fde8e089e1b55625f47e2514267351c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga5fde8e089e1b55625f47e2514267351c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG13</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x74)</td></tr>
+<tr class="separator:ga5fde8e089e1b55625f47e2514267351c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8b1de98866b4817e7e71095268455a7c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga8b1de98866b4817e7e71095268455a7c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG14</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x78)</td></tr>
+<tr class="separator:ga8b1de98866b4817e7e71095268455a7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa09982f0ec816b10df04ed3ec7848c4a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa09982f0ec816b10df04ed3ec7848c4a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG15</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x7C)</td></tr>
+<tr class="separator:gaa09982f0ec816b10df04ed3ec7848c4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga524fd4e5aa731c2929c22c04bdf0d314"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG</b>(slice)</td></tr>
+<tr class="separator:ga524fd4e5aa731c2929c22c04bdf0d314"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4a0008f294e940b734090b8e79a864df"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga4a0008f294e940b734090b8e79a864df"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG0</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x80)</td></tr>
+<tr class="separator:ga4a0008f294e940b734090b8e79a864df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga82d2768bbacdc936fe5a224c53c94c2f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga82d2768bbacdc936fe5a224c53c94c2f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG1</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x84)</td></tr>
+<tr class="separator:ga82d2768bbacdc936fe5a224c53c94c2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga10596062ff28c95027a1a9fc91a9c8c7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga10596062ff28c95027a1a9fc91a9c8c7"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG2</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x88)</td></tr>
+<tr class="separator:ga10596062ff28c95027a1a9fc91a9c8c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga447166fd615f72f6b31af21377312feb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga447166fd615f72f6b31af21377312feb"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG3</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x8C)</td></tr>
+<tr class="separator:ga447166fd615f72f6b31af21377312feb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5ffb200d5da657758f3000710789046f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga5ffb200d5da657758f3000710789046f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG4</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x90)</td></tr>
+<tr class="separator:ga5ffb200d5da657758f3000710789046f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga878556866284d47dd06628ab04a292fa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga878556866284d47dd06628ab04a292fa"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG5</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x94)</td></tr>
+<tr class="separator:ga878556866284d47dd06628ab04a292fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga532a44df3229988d654b27b0354a3e90"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga532a44df3229988d654b27b0354a3e90"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG6</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x98)</td></tr>
+<tr class="separator:ga532a44df3229988d654b27b0354a3e90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga94c44a17649f9d2eb0018389bcc0144a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga94c44a17649f9d2eb0018389bcc0144a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG7</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x9C)</td></tr>
+<tr class="separator:ga94c44a17649f9d2eb0018389bcc0144a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga68223a4e32952ceea8a0d30418708ac8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga68223a4e32952ceea8a0d30418708ac8"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG8</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xA0)</td></tr>
+<tr class="separator:ga68223a4e32952ceea8a0d30418708ac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa67d73ccfb6915a4772c0bccab0e04b6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa67d73ccfb6915a4772c0bccab0e04b6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG9</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xA4)</td></tr>
+<tr class="separator:gaa67d73ccfb6915a4772c0bccab0e04b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa4d0d9d7cc8b46cac4e22f2aeb900a90"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa4d0d9d7cc8b46cac4e22f2aeb900a90"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG10</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xA8)</td></tr>
+<tr class="separator:gaa4d0d9d7cc8b46cac4e22f2aeb900a90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa9ef38f851623f4e8988738fa0969ed7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa9ef38f851623f4e8988738fa0969ed7"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG11</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xAC)</td></tr>
+<tr class="separator:gaa9ef38f851623f4e8988738fa0969ed7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae970e65d54bc0a00e7c141526e813fd1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae970e65d54bc0a00e7c141526e813fd1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG12</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xB0)</td></tr>
+<tr class="separator:gae970e65d54bc0a00e7c141526e813fd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga186f4e40e10914acd64993dc3965566f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga186f4e40e10914acd64993dc3965566f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG13</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xB4)</td></tr>
+<tr class="separator:ga186f4e40e10914acd64993dc3965566f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1d0a361dd8c2e5491beb76dee051bdcf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga1d0a361dd8c2e5491beb76dee051bdcf"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG14</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xB8)</td></tr>
+<tr class="separator:ga1d0a361dd8c2e5491beb76dee051bdcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2d0c3f42bcb1f889c9031fd999ca0223"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga2d0c3f42bcb1f889c9031fd999ca0223"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG15</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xBC)</td></tr>
+<tr class="separator:ga2d0c3f42bcb1f889c9031fd999ca0223"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga68310c2bb77461c8aaeac6210971f1b4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_REG</b>(slice)</td></tr>
+<tr class="separator:ga68310c2bb77461c8aaeac6210971f1b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae5e4821eb8ea7e508190b98e161f1196"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae5e4821eb8ea7e508190b98e161f1196"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_REG0</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xC0)</td></tr>
+<tr class="separator:gae5e4821eb8ea7e508190b98e161f1196"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3c1e3638f89349399aab49b15f2a77f7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga3c1e3638f89349399aab49b15f2a77f7"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_REG1</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xC4)</td></tr>
+<tr class="separator:ga3c1e3638f89349399aab49b15f2a77f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9a7ff82caf0fcc4e8bdda50068c45847"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga9a7ff82caf0fcc4e8bdda50068c45847"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_REG2</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xC8)</td></tr>
+<tr class="separator:ga9a7ff82caf0fcc4e8bdda50068c45847"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7532b5e8728d3adc876fd55e00a21ee0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga7532b5e8728d3adc876fd55e00a21ee0"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_REG3</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xCC)</td></tr>
+<tr class="separator:ga7532b5e8728d3adc876fd55e00a21ee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa617675c434c5a78267b79ded11c0fff"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa617675c434c5a78267b79ded11c0fff"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_REG4</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xD0)</td></tr>
+<tr class="separator:gaa617675c434c5a78267b79ded11c0fff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae10e4a3ff1549523cd0e66796ac086f0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae10e4a3ff1549523cd0e66796ac086f0"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_REG5</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xD4)</td></tr>
+<tr class="separator:gae10e4a3ff1549523cd0e66796ac086f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae9b141f823ea76234931c321e61ac1ba"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae9b141f823ea76234931c321e61ac1ba"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_REG6</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xD8)</td></tr>
+<tr class="separator:gae9b141f823ea76234931c321e61ac1ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad3043e9080b782b239c585dd72d643d1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gad3043e9080b782b239c585dd72d643d1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_REG7</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xDC)</td></tr>
+<tr class="separator:gad3043e9080b782b239c585dd72d643d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga871b73162a8661d5344fe78deb5d6e2a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga871b73162a8661d5344fe78deb5d6e2a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_REG8</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xE0)</td></tr>
+<tr class="separator:ga871b73162a8661d5344fe78deb5d6e2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6c9e7e5dee411d5cfa673212a04667a4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga6c9e7e5dee411d5cfa673212a04667a4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_REG9</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xE4)</td></tr>
+<tr class="separator:ga6c9e7e5dee411d5cfa673212a04667a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad1fe239fc46baf82eccc303f49ffc743"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gad1fe239fc46baf82eccc303f49ffc743"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_REG10</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xE8)</td></tr>
+<tr class="separator:gad1fe239fc46baf82eccc303f49ffc743"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1ebee7ef5a71f08ffbd55886e0dc6234"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga1ebee7ef5a71f08ffbd55886e0dc6234"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_REG11</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xEC)</td></tr>
+<tr class="separator:ga1ebee7ef5a71f08ffbd55886e0dc6234"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa5c415745ee1eeb1f5689ef4053c722b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa5c415745ee1eeb1f5689ef4053c722b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_REG12</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xF0)</td></tr>
+<tr class="separator:gaa5c415745ee1eeb1f5689ef4053c722b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8a5eeb816314cd716a280644ac30b56c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga8a5eeb816314cd716a280644ac30b56c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_REG13</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xF4)</td></tr>
+<tr class="separator:ga8a5eeb816314cd716a280644ac30b56c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga16ae5a22a03429db4c10d96654e2b1f1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga16ae5a22a03429db4c10d96654e2b1f1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_REG14</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xF8)</td></tr>
+<tr class="separator:ga16ae5a22a03429db4c10d96654e2b1f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7bc6d3682ad23edfc92d4c99053d3e04"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga7bc6d3682ad23edfc92d4c99053d3e04"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_REG15</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xFC)</td></tr>
+<tr class="separator:ga7bc6d3682ad23edfc92d4c99053d3e04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacd8f2788f95cc872689d4dd7792a1451"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_REG_SS</b>(slice)</td></tr>
+<tr class="separator:gacd8f2788f95cc872689d4dd7792a1451"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga65c731c94badfed76c9811e2edd51b2c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga65c731c94badfed76c9811e2edd51b2c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_REG_SS0</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x100)</td></tr>
+<tr class="separator:ga65c731c94badfed76c9811e2edd51b2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad33cf56588c6a89302ff873b87b5ee2f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gad33cf56588c6a89302ff873b87b5ee2f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_REG_SS1</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x104)</td></tr>
+<tr class="separator:gad33cf56588c6a89302ff873b87b5ee2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2028bc78dec84192ec006cf7ca7d2203"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga2028bc78dec84192ec006cf7ca7d2203"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_REG_SS2</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x108)</td></tr>
+<tr class="separator:ga2028bc78dec84192ec006cf7ca7d2203"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga973b4e50a20474a90619ebbc72ba6d84"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga973b4e50a20474a90619ebbc72ba6d84"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_REG_SS3</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x10C)</td></tr>
+<tr class="separator:ga973b4e50a20474a90619ebbc72ba6d84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2853479c0bd179506b3df4b740be03ec"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga2853479c0bd179506b3df4b740be03ec"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_REG_SS4</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x110)</td></tr>
+<tr class="separator:ga2853479c0bd179506b3df4b740be03ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab4eb99f76cffc328f665670490d71495"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gab4eb99f76cffc328f665670490d71495"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_REG_SS5</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x114)</td></tr>
+<tr class="separator:gab4eb99f76cffc328f665670490d71495"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga53677d6f3d4fbcb107ab1b212c3805a3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga53677d6f3d4fbcb107ab1b212c3805a3"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_REG_SS6</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x118)</td></tr>
+<tr class="separator:ga53677d6f3d4fbcb107ab1b212c3805a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga890bfb9c287689f3189281d172128f7c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga890bfb9c287689f3189281d172128f7c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_REG_SS7</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x11C)</td></tr>
+<tr class="separator:ga890bfb9c287689f3189281d172128f7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga33a4036de77e16ceca7e694b7e8c89e4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga33a4036de77e16ceca7e694b7e8c89e4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_REG_SS8</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x120)</td></tr>
+<tr class="separator:ga33a4036de77e16ceca7e694b7e8c89e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga05a237d78bfbb759dd2671063906ac4a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga05a237d78bfbb759dd2671063906ac4a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_REG_SS9</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x124)</td></tr>
+<tr class="separator:ga05a237d78bfbb759dd2671063906ac4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga01755de89198ed40fb30e23a69f3794f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga01755de89198ed40fb30e23a69f3794f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_REG_SS10</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x128)</td></tr>
+<tr class="separator:ga01755de89198ed40fb30e23a69f3794f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8b54678bb5cece8a90791b515d52c926"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga8b54678bb5cece8a90791b515d52c926"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_REG_SS11</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x12C)</td></tr>
+<tr class="separator:ga8b54678bb5cece8a90791b515d52c926"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4e795240a18726953d218929409b7d72"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga4e795240a18726953d218929409b7d72"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_REG_SS12</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x130)</td></tr>
+<tr class="separator:ga4e795240a18726953d218929409b7d72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac005f3270d32b4d29599d9ad21edffb2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gac005f3270d32b4d29599d9ad21edffb2"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_REG_SS13</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x134)</td></tr>
+<tr class="separator:gac005f3270d32b4d29599d9ad21edffb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga32cc50d14e14b096a57bcd0f0c9d7ef7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga32cc50d14e14b096a57bcd0f0c9d7ef7"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_REG_SS14</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x138)</td></tr>
+<tr class="separator:ga32cc50d14e14b096a57bcd0f0c9d7ef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad9f9888835abce48435c1a6258c315e1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gad9f9888835abce48435c1a6258c315e1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_REG_SS15</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x13C)</td></tr>
+<tr class="separator:gad9f9888835abce48435c1a6258c315e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga48c2cd6f4ca986886a30fd372cc4e639"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_PRESET</b>(slice)</td></tr>
+<tr class="separator:ga48c2cd6f4ca986886a30fd372cc4e639"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae73554cf5f1780278b45ee0510d1a005"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae73554cf5f1780278b45ee0510d1a005"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_PRESET0</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x140)</td></tr>
+<tr class="separator:gae73554cf5f1780278b45ee0510d1a005"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga203c0987296224e05f544147460ff31c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga203c0987296224e05f544147460ff31c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_PRESET1</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x144)</td></tr>
+<tr class="separator:ga203c0987296224e05f544147460ff31c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaebcbd9a166c1d4e55e41cb61f92b9f2f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaebcbd9a166c1d4e55e41cb61f92b9f2f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_PRESET2</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x148)</td></tr>
+<tr class="separator:gaebcbd9a166c1d4e55e41cb61f92b9f2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabff886931c98d6cbf04e9b6aee9afe19"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gabff886931c98d6cbf04e9b6aee9afe19"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_PRESET3</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x14C)</td></tr>
+<tr class="separator:gabff886931c98d6cbf04e9b6aee9afe19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1883810d3c183b41a2fd9296197fb42c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga1883810d3c183b41a2fd9296197fb42c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_PRESET4</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x150)</td></tr>
+<tr class="separator:ga1883810d3c183b41a2fd9296197fb42c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad68ab6f0075f6244f48ba568b18db0fc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gad68ab6f0075f6244f48ba568b18db0fc"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_PRESET5</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x154)</td></tr>
+<tr class="separator:gad68ab6f0075f6244f48ba568b18db0fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga10380d2a3f03124ccf84e91842ede6ac"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga10380d2a3f03124ccf84e91842ede6ac"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_PRESET6</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x158)</td></tr>
+<tr class="separator:ga10380d2a3f03124ccf84e91842ede6ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga71453119beb5bf007a0be6ad779859ff"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga71453119beb5bf007a0be6ad779859ff"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_PRESET7</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x15C)</td></tr>
+<tr class="separator:ga71453119beb5bf007a0be6ad779859ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5bc22923c34611d8638a7b668a862653"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga5bc22923c34611d8638a7b668a862653"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_PRESET8</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x160)</td></tr>
+<tr class="separator:ga5bc22923c34611d8638a7b668a862653"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3f86ed39db48ea79dea31823e3884282"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga3f86ed39db48ea79dea31823e3884282"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_PRESET9</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x164)</td></tr>
+<tr class="separator:ga3f86ed39db48ea79dea31823e3884282"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1b3a08eef048dd7748d7f0ef3e3e8d0c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga1b3a08eef048dd7748d7f0ef3e3e8d0c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_PRESET10</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x168)</td></tr>
+<tr class="separator:ga1b3a08eef048dd7748d7f0ef3e3e8d0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4778d14c2fc15028692e16760b7f3855"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga4778d14c2fc15028692e16760b7f3855"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_PRESET11</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x16C)</td></tr>
+<tr class="separator:ga4778d14c2fc15028692e16760b7f3855"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab575d6433c71a55cb4e52fdcc7698298"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gab575d6433c71a55cb4e52fdcc7698298"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_PRESET12</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x170)</td></tr>
+<tr class="separator:gab575d6433c71a55cb4e52fdcc7698298"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac832195dfd097072c40bde008648b068"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gac832195dfd097072c40bde008648b068"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_PRESET13</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x174)</td></tr>
+<tr class="separator:gac832195dfd097072c40bde008648b068"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga275dded1dcb237d9ffe882e40f71e31c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga275dded1dcb237d9ffe882e40f71e31c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_PRESET14</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x178)</td></tr>
+<tr class="separator:ga275dded1dcb237d9ffe882e40f71e31c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf31fd6d3a784f5bb35c77c04c71d7d22"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaf31fd6d3a784f5bb35c77c04c71d7d22"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_PRESET15</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x17C)</td></tr>
+<tr class="separator:gaf31fd6d3a784f5bb35c77c04c71d7d22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae9f067ff4ef874dbf997a043c64ee7db"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_COUNT</b>(slice)</td></tr>
+<tr class="separator:gae9f067ff4ef874dbf997a043c64ee7db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae523432202de09cb1641229bfe61d40e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae523432202de09cb1641229bfe61d40e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_COUNT0</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x180)</td></tr>
+<tr class="separator:gae523432202de09cb1641229bfe61d40e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf87938de42e71554b195cffa2163bae2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaf87938de42e71554b195cffa2163bae2"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_COUNT1</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x184)</td></tr>
+<tr class="separator:gaf87938de42e71554b195cffa2163bae2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga21a1b75d93030eaa7df65520bae663a8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga21a1b75d93030eaa7df65520bae663a8"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_COUNT2</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x188)</td></tr>
+<tr class="separator:ga21a1b75d93030eaa7df65520bae663a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8a014d384ac13a67ea47d2be755cf06c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga8a014d384ac13a67ea47d2be755cf06c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_COUNT3</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x18C)</td></tr>
+<tr class="separator:ga8a014d384ac13a67ea47d2be755cf06c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2851df40b13a84408a34e679eeb88381"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga2851df40b13a84408a34e679eeb88381"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_COUNT4</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x190)</td></tr>
+<tr class="separator:ga2851df40b13a84408a34e679eeb88381"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga794986bab7b0dc5f66de4b36163525ad"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga794986bab7b0dc5f66de4b36163525ad"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_COUNT5</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x194)</td></tr>
+<tr class="separator:ga794986bab7b0dc5f66de4b36163525ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9aef813ed59d3ad04be8f537be36fb77"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga9aef813ed59d3ad04be8f537be36fb77"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_COUNT6</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x198)</td></tr>
+<tr class="separator:ga9aef813ed59d3ad04be8f537be36fb77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae9ef43bd38162948c6d9684733289aba"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae9ef43bd38162948c6d9684733289aba"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_COUNT7</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x19C)</td></tr>
+<tr class="separator:gae9ef43bd38162948c6d9684733289aba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1bf9b2d55d64d2fd06f30638a9040d45"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga1bf9b2d55d64d2fd06f30638a9040d45"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_COUNT8</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x1A0)</td></tr>
+<tr class="separator:ga1bf9b2d55d64d2fd06f30638a9040d45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga83100a2cff560ed3111236439b9a23d0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga83100a2cff560ed3111236439b9a23d0"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_COUNT9</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x1A4)</td></tr>
+<tr class="separator:ga83100a2cff560ed3111236439b9a23d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6a600592264f303dd89f0a05268730ce"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga6a600592264f303dd89f0a05268730ce"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_COUNT10</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x1A8)</td></tr>
+<tr class="separator:ga6a600592264f303dd89f0a05268730ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8c9572ec4a070f88d206805707579c11"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga8c9572ec4a070f88d206805707579c11"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_COUNT11</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x1AC)</td></tr>
+<tr class="separator:ga8c9572ec4a070f88d206805707579c11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad51a62e58c95011aa78925dc7d3dd8c5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gad51a62e58c95011aa78925dc7d3dd8c5"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_COUNT12</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x1B0)</td></tr>
+<tr class="separator:gad51a62e58c95011aa78925dc7d3dd8c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2b97ff47c98f38186fc7f9432d627025"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga2b97ff47c98f38186fc7f9432d627025"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_COUNT13</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x1B4)</td></tr>
+<tr class="separator:ga2b97ff47c98f38186fc7f9432d627025"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga04de581ed04e01ab9ba12b0e4ea96435"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga04de581ed04e01ab9ba12b0e4ea96435"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_COUNT14</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x1B8)</td></tr>
+<tr class="separator:ga04de581ed04e01ab9ba12b0e4ea96435"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa523bb3dbbada5b0ca58e69dc9014fe4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa523bb3dbbada5b0ca58e69dc9014fe4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_COUNT15</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x1BC)</td></tr>
+<tr class="separator:gaa523bb3dbbada5b0ca58e69dc9014fe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadb785fd672eaab69142073e76c9b5c25"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_POS</b>(slice)</td></tr>
+<tr class="separator:gadb785fd672eaab69142073e76c9b5c25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf3a5df2c0d8174308de468fc1a0079f4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaf3a5df2c0d8174308de468fc1a0079f4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_POS0</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x1C0)</td></tr>
+<tr class="separator:gaf3a5df2c0d8174308de468fc1a0079f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaceea459345af12d88b5d06a48219a6a6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaceea459345af12d88b5d06a48219a6a6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_POS1</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x1C4)</td></tr>
+<tr class="separator:gaceea459345af12d88b5d06a48219a6a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga09a01d99c7860fba30cbfa90abf9e119"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga09a01d99c7860fba30cbfa90abf9e119"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_POS2</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x1C8)</td></tr>
+<tr class="separator:ga09a01d99c7860fba30cbfa90abf9e119"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga63c7beb9c8964ad39a260902cb8edd23"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga63c7beb9c8964ad39a260902cb8edd23"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_POS3</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x1CC)</td></tr>
+<tr class="separator:ga63c7beb9c8964ad39a260902cb8edd23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae1ae12dbada0ce0d101faa4bd2bd688b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae1ae12dbada0ce0d101faa4bd2bd688b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_POS4</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x1D0)</td></tr>
+<tr class="separator:gae1ae12dbada0ce0d101faa4bd2bd688b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2b7b9518a971fc2fef7b70331cd3586b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga2b7b9518a971fc2fef7b70331cd3586b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_POS5</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x1D4)</td></tr>
+<tr class="separator:ga2b7b9518a971fc2fef7b70331cd3586b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4b5c40df31d55ecf206ef47e4256b116"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga4b5c40df31d55ecf206ef47e4256b116"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_POS6</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x1D8)</td></tr>
+<tr class="separator:ga4b5c40df31d55ecf206ef47e4256b116"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9619d34ea72fd493b7f22a18a7a75ad1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga9619d34ea72fd493b7f22a18a7a75ad1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_POS7</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x1DC)</td></tr>
+<tr class="separator:ga9619d34ea72fd493b7f22a18a7a75ad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga73910b545fec847e6e8c6ed8fd6a2b0c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga73910b545fec847e6e8c6ed8fd6a2b0c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_POS8</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x1E0)</td></tr>
+<tr class="separator:ga73910b545fec847e6e8c6ed8fd6a2b0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga92ab1886e517989fbb4434c7f2a639b3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga92ab1886e517989fbb4434c7f2a639b3"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_POS9</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x1E4)</td></tr>
+<tr class="separator:ga92ab1886e517989fbb4434c7f2a639b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga912b481bee0cf878bfc11e9500eccf0b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga912b481bee0cf878bfc11e9500eccf0b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_POS10</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x1E8)</td></tr>
+<tr class="separator:ga912b481bee0cf878bfc11e9500eccf0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf97ead8a7f08a99efb556074a0f73569"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaf97ead8a7f08a99efb556074a0f73569"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_POS11</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x1EC)</td></tr>
+<tr class="separator:gaf97ead8a7f08a99efb556074a0f73569"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6cb2f7a26c0568da5cfd9e86092b6feb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga6cb2f7a26c0568da5cfd9e86092b6feb"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_POS12</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x1F0)</td></tr>
+<tr class="separator:ga6cb2f7a26c0568da5cfd9e86092b6feb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafbc164cac65d61b4c84949d7a47ea49b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gafbc164cac65d61b4c84949d7a47ea49b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_POS13</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x1F4)</td></tr>
+<tr class="separator:gafbc164cac65d61b4c84949d7a47ea49b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga02e253377db58e87624ce4d2d428a2c8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga02e253377db58e87624ce4d2d428a2c8"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_POS14</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x1F8)</td></tr>
+<tr class="separator:ga02e253377db58e87624ce4d2d428a2c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5f8320bc69ec0b170dee6a381a85c513"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga5f8320bc69ec0b170dee6a381a85c513"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_POS15</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x1FC)</td></tr>
+<tr class="separator:ga5f8320bc69ec0b170dee6a381a85c513"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2284a0e3a1bae914c842e12b151a38ec"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga2284a0e3a1bae914c842e12b151a38ec"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_A</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ga2284a0e3a1bae914c842e12b151a38ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa048bc69c967d58a5a6ebbae42cfb548"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa048bc69c967d58a5a6ebbae42cfb548"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_B</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:gaa048bc69c967d58a5a6ebbae42cfb548"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad154d137015edb269150da9c3717f358"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gad154d137015edb269150da9c3717f358"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_C</b>&#160;&#160;&#160;2</td></tr>
+<tr class="separator:gad154d137015edb269150da9c3717f358"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaae059b4c92076549b12cde6c8d0e3fa8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaae059b4c92076549b12cde6c8d0e3fa8"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_D</b>&#160;&#160;&#160;3</td></tr>
+<tr class="separator:gaae059b4c92076549b12cde6c8d0e3fa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga61de05ed01375704cddb022ae1884e8c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga61de05ed01375704cddb022ae1884e8c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_E</b>&#160;&#160;&#160;4</td></tr>
+<tr class="separator:ga61de05ed01375704cddb022ae1884e8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa6a5441601dd66f50e5b1834536eee11"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa6a5441601dd66f50e5b1834536eee11"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_F</b>&#160;&#160;&#160;5</td></tr>
+<tr class="separator:gaa6a5441601dd66f50e5b1834536eee11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1e62f9bec94211a52c1fa53475aa1445"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga1e62f9bec94211a52c1fa53475aa1445"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_G</b>&#160;&#160;&#160;6</td></tr>
+<tr class="separator:ga1e62f9bec94211a52c1fa53475aa1445"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4765275a4d273cb5de0ea2d22a603d84"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga4765275a4d273cb5de0ea2d22a603d84"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_H</b>&#160;&#160;&#160;7</td></tr>
+<tr class="separator:ga4765275a4d273cb5de0ea2d22a603d84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7cde051c05ffa5b3b83361eb77d44aa5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga7cde051c05ffa5b3b83361eb77d44aa5"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_I</b>&#160;&#160;&#160;8</td></tr>
+<tr class="separator:ga7cde051c05ffa5b3b83361eb77d44aa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga88f90f32a5be83e44383ce109da119e2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga88f90f32a5be83e44383ce109da119e2"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_J</b>&#160;&#160;&#160;9</td></tr>
+<tr class="separator:ga88f90f32a5be83e44383ce109da119e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9b4acd54502a751e92fb50d0c4b131b1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga9b4acd54502a751e92fb50d0c4b131b1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_K</b>&#160;&#160;&#160;10</td></tr>
+<tr class="separator:ga9b4acd54502a751e92fb50d0c4b131b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa49d641c32fe1e386667748db5f9c349"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa49d641c32fe1e386667748db5f9c349"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_L</b>&#160;&#160;&#160;11</td></tr>
+<tr class="separator:gaa49d641c32fe1e386667748db5f9c349"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4e819224660d0229f4c0a0f5c551a923"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga4e819224660d0229f4c0a0f5c551a923"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_M</b>&#160;&#160;&#160;12</td></tr>
+<tr class="separator:ga4e819224660d0229f4c0a0f5c551a923"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9abcf73abb91b48d2bcbe1fb8c850f95"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga9abcf73abb91b48d2bcbe1fb8c850f95"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_N</b>&#160;&#160;&#160;13</td></tr>
+<tr class="separator:ga9abcf73abb91b48d2bcbe1fb8c850f95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga43c15cc39b0e7b45228d7a8f6bd9336f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga43c15cc39b0e7b45228d7a8f6bd9336f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_O</b>&#160;&#160;&#160;14</td></tr>
+<tr class="separator:ga43c15cc39b0e7b45228d7a8f6bd9336f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga61deac77ed3ede11c042c85a853dee2d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga61deac77ed3ede11c042c85a853dee2d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_P</b>&#160;&#160;&#160;15</td></tr>
+<tr class="separator:ga61deac77ed3ede11c042c85a853dee2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf3f031f22acf88b0148ec47d3b14fa29"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaf3f031f22acf88b0148ec47d3b14fa29"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MASK_A</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x200)</td></tr>
+<tr class="separator:gaf3f031f22acf88b0148ec47d3b14fa29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae167046efd9ad25b0b8698c229155e71"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae167046efd9ad25b0b8698c229155e71"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MASK_H</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x204)</td></tr>
+<tr class="separator:gae167046efd9ad25b0b8698c229155e71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3534970a0fea551cc69b8168f5895335"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga3534970a0fea551cc69b8168f5895335"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MASK_I</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x208)</td></tr>
+<tr class="separator:ga3534970a0fea551cc69b8168f5895335"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa8557be140d76e0a99991d64a5343ec6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa8557be140d76e0a99991d64a5343ec6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MASK_P</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x20C)</td></tr>
+<tr class="separator:gaa8557be140d76e0a99991d64a5343ec6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga688e376350da65afe0fdb3866bfda937"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga688e376350da65afe0fdb3866bfda937"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_GPIO_INREG</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x210)</td></tr>
+<tr class="separator:ga688e376350da65afe0fdb3866bfda937"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1e5ba9e766b096ffce7d2efdd405ea0c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga1e5ba9e766b096ffce7d2efdd405ea0c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_GPIO_OUTREG</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x214)</td></tr>
+<tr class="separator:ga1e5ba9e766b096ffce7d2efdd405ea0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaf25787e62a3a7f85df370d740723a8c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaaf25787e62a3a7f85df370d740723a8c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_GPIO_OENREG</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x218)</td></tr>
+<tr class="separator:gaaf25787e62a3a7f85df370d740723a8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae65b058fa17272c60258ac5681d0e0c3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae65b058fa17272c60258ac5681d0e0c3"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_CTRL_ENABLE</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x21C)</td></tr>
+<tr class="separator:gae65b058fa17272c60258ac5681d0e0c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabb4f1e3251e789312efa6ed40bf2703f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gabb4f1e3251e789312efa6ed40bf2703f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_CTRL_DISABLE</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0x220)</td></tr>
+<tr class="separator:gabb4f1e3251e789312efa6ed40bf2703f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga946935c1fcb5713030fcddd882e5dcdd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga946935c1fcb5713030fcddd882e5dcdd"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_CLR_EN_0</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xF00)</td></tr>
+<tr class="separator:ga946935c1fcb5713030fcddd882e5dcdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9fcb833b45ee99543ad2e92249131400"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga9fcb833b45ee99543ad2e92249131400"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SET_EN_0</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xF04)</td></tr>
+<tr class="separator:ga9fcb833b45ee99543ad2e92249131400"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3171cd312505cf7e60e2171d8203be3d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga3171cd312505cf7e60e2171d8203be3d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_ENABLE_0</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xF08)</td></tr>
+<tr class="separator:ga3171cd312505cf7e60e2171d8203be3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaedf8d957a76a9b2b3a4bd847b8aef3dc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaedf8d957a76a9b2b3a4bd847b8aef3dc"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_STATUS_0</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xF0C)</td></tr>
+<tr class="separator:gaedf8d957a76a9b2b3a4bd847b8aef3dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga79d04c66e50c56d4ebfcfc62c82ad851"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga79d04c66e50c56d4ebfcfc62c82ad851"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_CLR_STATUS_0</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xF10)</td></tr>
+<tr class="separator:ga79d04c66e50c56d4ebfcfc62c82ad851"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2cac91e551433ee8679bc57fdf069339"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga2cac91e551433ee8679bc57fdf069339"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SET_STATUS_0</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xF14)</td></tr>
+<tr class="separator:ga2cac91e551433ee8679bc57fdf069339"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac7955c41cee8a8f7ed60325962553dcc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gac7955c41cee8a8f7ed60325962553dcc"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_CLR_EN_1</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xF20)</td></tr>
+<tr class="separator:gac7955c41cee8a8f7ed60325962553dcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab1efdea0cc38ae413bbd3f4709a583d8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gab1efdea0cc38ae413bbd3f4709a583d8"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SET_EN_1</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xF24)</td></tr>
+<tr class="separator:gab1efdea0cc38ae413bbd3f4709a583d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga38be8731db20e069da0928c2d48e6eba"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga38be8731db20e069da0928c2d48e6eba"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_ENABLE_1</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xF28)</td></tr>
+<tr class="separator:ga38be8731db20e069da0928c2d48e6eba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga64c248ee6fb57c90dd4b696809fab383"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga64c248ee6fb57c90dd4b696809fab383"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_STATUS_1</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xF2C)</td></tr>
+<tr class="separator:ga64c248ee6fb57c90dd4b696809fab383"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1b3fbb0be8724e134b9d7f0a5cea9c8f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga1b3fbb0be8724e134b9d7f0a5cea9c8f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_CLR_STATUS_1</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xF30)</td></tr>
+<tr class="separator:ga1b3fbb0be8724e134b9d7f0a5cea9c8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab38eea440770e048e2804f9d1caab443"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gab38eea440770e048e2804f9d1caab443"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SET_STATUS_1</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xF34)</td></tr>
+<tr class="separator:gab38eea440770e048e2804f9d1caab443"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga84d6d697287f94fc7e82ed2c73920406"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga84d6d697287f94fc7e82ed2c73920406"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_CLR_EN_2</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xF40)</td></tr>
+<tr class="separator:ga84d6d697287f94fc7e82ed2c73920406"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa106d97fbc0ca1263508de8ea72a3572"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa106d97fbc0ca1263508de8ea72a3572"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SET_EN_2</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xF44)</td></tr>
+<tr class="separator:gaa106d97fbc0ca1263508de8ea72a3572"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf577d0723388d7968b12afd95fc77629"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaf577d0723388d7968b12afd95fc77629"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_ENABLE_2</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xF48)</td></tr>
+<tr class="separator:gaf577d0723388d7968b12afd95fc77629"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7670ff4a193e343ddb804bb3840277ff"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga7670ff4a193e343ddb804bb3840277ff"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_STATUS_2</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xF4C)</td></tr>
+<tr class="separator:ga7670ff4a193e343ddb804bb3840277ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae069290cd2a9084c89c9b74f6198ad24"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae069290cd2a9084c89c9b74f6198ad24"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_CLR_STATUS_2</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xF50)</td></tr>
+<tr class="separator:gae069290cd2a9084c89c9b74f6198ad24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa086b18279d6ec2242313e2af6f5b7d3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa086b18279d6ec2242313e2af6f5b7d3"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SET_STATUS_2</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xF54)</td></tr>
+<tr class="separator:gaa086b18279d6ec2242313e2af6f5b7d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5b3718b70313fc1c3285e333c5562a1a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga5b3718b70313fc1c3285e333c5562a1a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_CLR_EN_3</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xF60)</td></tr>
+<tr class="separator:ga5b3718b70313fc1c3285e333c5562a1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa5ea4cf6e8a1a48aac7f5d60bdbb1b56"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa5ea4cf6e8a1a48aac7f5d60bdbb1b56"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SET_EN_3</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xF64)</td></tr>
+<tr class="separator:gaa5ea4cf6e8a1a48aac7f5d60bdbb1b56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab93f5d0e79fef1edc3e82f39b0352ead"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gab93f5d0e79fef1edc3e82f39b0352ead"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_ENABLE_3</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xF68)</td></tr>
+<tr class="separator:gab93f5d0e79fef1edc3e82f39b0352ead"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaccd9d286e027954d180d42ed6bd4b87d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaccd9d286e027954d180d42ed6bd4b87d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_STATUS_3</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xF6C)</td></tr>
+<tr class="separator:gaccd9d286e027954d180d42ed6bd4b87d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga75908f2bd3c08162c164c346af10419b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga75908f2bd3c08162c164c346af10419b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_CLR_STATUS_3</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xF70)</td></tr>
+<tr class="separator:ga75908f2bd3c08162c164c346af10419b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0506a95600d7b2049a66d39522641aed"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga0506a95600d7b2049a66d39522641aed"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SET_STATUS_3</b>&#160;&#160;&#160;MMIO32(SGPIO_PORT_BASE + 0xF74)</td></tr>
+<tr class="separator:ga0506a95600d7b2049a66d39522641aed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac84f71cfee948de72afa3ee6a46cd036"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gac84f71cfee948de72afa3ee6a46cd036"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_OUT_MUX_CFG_P_OUT_CFG_SHIFT</b>&#160;&#160;&#160;(0)</td></tr>
+<tr class="separator:gac84f71cfee948de72afa3ee6a46cd036"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad6be613de424724ac5dbe6781c32dc2d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gad6be613de424724ac5dbe6781c32dc2d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_OUT_MUX_CFG_P_OUT_CFG_MASK</b>&#160;&#160;&#160;(0xf &lt;&lt; SGPIO_OUT_MUX_CFG_P_OUT_CFG_SHIFT)</td></tr>
+<tr class="separator:gad6be613de424724ac5dbe6781c32dc2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa0dd4c65acfb9a2313d07a74b836ea4b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa0dd4c65acfb9a2313d07a74b836ea4b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_OUT_MUX_CFG_P_OUT_CFG</b>(x)&#160;&#160;&#160;((x) &lt;&lt; SGPIO_OUT_MUX_CFG_P_OUT_CFG_SHIFT)</td></tr>
+<tr class="separator:gaa0dd4c65acfb9a2313d07a74b836ea4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5311db1032cc079eaebdf272f1b56621"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga5311db1032cc079eaebdf272f1b56621"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_OUT_MUX_CFG_P_OE_CFG_SHIFT</b>&#160;&#160;&#160;(4)</td></tr>
+<tr class="separator:ga5311db1032cc079eaebdf272f1b56621"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1d86137feb3ff3f77192af9d0f4860ce"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga1d86137feb3ff3f77192af9d0f4860ce"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_OUT_MUX_CFG_P_OE_CFG_MASK</b>&#160;&#160;&#160;(0x7 &lt;&lt; SGPIO_OUT_MUX_CFG_P_OE_CFG_SHIFT)</td></tr>
+<tr class="separator:ga1d86137feb3ff3f77192af9d0f4860ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga86b29eddd3ac0490fbe3104972433ead"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga86b29eddd3ac0490fbe3104972433ead"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_OUT_MUX_CFG_P_OE_CFG</b>(x)&#160;&#160;&#160;((x) &lt;&lt; SGPIO_OUT_MUX_CFG_P_OE_CFG_SHIFT)</td></tr>
+<tr class="separator:ga86b29eddd3ac0490fbe3104972433ead"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae5f4ab642c93458aa955676dc0e6bf2f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae5f4ab642c93458aa955676dc0e6bf2f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG_EXT_CLK_ENABLE_SHIFT</b>&#160;&#160;&#160;(0)</td></tr>
+<tr class="separator:gae5f4ab642c93458aa955676dc0e6bf2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad8c3eb3b536cc6d117e8403ce34c1110"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gad8c3eb3b536cc6d117e8403ce34c1110"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG_EXT_CLK_ENABLE_MASK</b>&#160;&#160;&#160;(1 &lt;&lt; SGPIO_MUX_CFG_EXT_CLK_ENABLE_SHIFT)</td></tr>
+<tr class="separator:gad8c3eb3b536cc6d117e8403ce34c1110"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaac3ecdc94fb074adc4c0243a8ffa9e2e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaac3ecdc94fb074adc4c0243a8ffa9e2e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG_EXT_CLK_ENABLE</b>(x)&#160;&#160;&#160;((x) &lt;&lt; SGPIO_MUX_CFG_EXT_CLK_ENABLE_SHIFT)</td></tr>
+<tr class="separator:gaac3ecdc94fb074adc4c0243a8ffa9e2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab4153f14a533951b0c5e2ec4e12527d4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gab4153f14a533951b0c5e2ec4e12527d4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG_CLK_SOURCE_PIN_MODE_SHIFT</b>&#160;&#160;&#160;(1)</td></tr>
+<tr class="separator:gab4153f14a533951b0c5e2ec4e12527d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa491e7a572484f4712047eb23ee55cdb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa491e7a572484f4712047eb23ee55cdb"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG_CLK_SOURCE_PIN_MODE_MASK</b>&#160;&#160;&#160;(0x3 &lt;&lt; SGPIO_MUX_CFG_CLK_SOURCE_PIN_MODE_SHIFT)</td></tr>
+<tr class="separator:gaa491e7a572484f4712047eb23ee55cdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad3d282947f7c91e098ee24cb87289917"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gad3d282947f7c91e098ee24cb87289917"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG_CLK_SOURCE_PIN_MODE</b>(x)&#160;&#160;&#160;((x) &lt;&lt; SGPIO_MUX_CFG_CLK_SOURCE_PIN_MODE_SHIFT)</td></tr>
+<tr class="separator:gad3d282947f7c91e098ee24cb87289917"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1c2348277f77a668565bb75827c1e278"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga1c2348277f77a668565bb75827c1e278"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG_CLK_SOURCE_SLICE_MODE_SHIFT</b>&#160;&#160;&#160;(3)</td></tr>
+<tr class="separator:ga1c2348277f77a668565bb75827c1e278"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga10ea253be5a24c77fc8d3228fbe40b95"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga10ea253be5a24c77fc8d3228fbe40b95"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG_CLK_SOURCE_SLICE_MODE_MASK</b>&#160;&#160;&#160;(0x3 &lt;&lt; SGPIO_MUX_CFG_CLK_SOURCE_SLICE_MODE_SHIFT)</td></tr>
+<tr class="separator:ga10ea253be5a24c77fc8d3228fbe40b95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8613f836b6722466033f86ddf80bd92c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga8613f836b6722466033f86ddf80bd92c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG_CLK_SOURCE_SLICE_MODE</b>(x)&#160;&#160;&#160;((x) &lt;&lt; SGPIO_MUX_CFG_CLK_SOURCE_SLICE_MODE_SHIFT)</td></tr>
+<tr class="separator:ga8613f836b6722466033f86ddf80bd92c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad4e8e6438c5ae4e0322338bf1aef1463"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gad4e8e6438c5ae4e0322338bf1aef1463"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG_QUALIFIER_MODE_SHIFT</b>&#160;&#160;&#160;(5)</td></tr>
+<tr class="separator:gad4e8e6438c5ae4e0322338bf1aef1463"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga35472adf609b8df9adf029656f92ae3e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga35472adf609b8df9adf029656f92ae3e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG_QUALIFIER_MODE_MASK</b>&#160;&#160;&#160;(0x3 &lt;&lt; SGPIO_MUX_CFG_QUALIFIER_MODE_SHIFT)</td></tr>
+<tr class="separator:ga35472adf609b8df9adf029656f92ae3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga76d819e6eb1f2045d810d3b8e389fc88"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga76d819e6eb1f2045d810d3b8e389fc88"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG_QUALIFIER_MODE</b>(x)&#160;&#160;&#160;((x) &lt;&lt; SGPIO_MUX_CFG_QUALIFIER_MODE_SHIFT)</td></tr>
+<tr class="separator:ga76d819e6eb1f2045d810d3b8e389fc88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad2390dc88ed797c3c0aaf26c8e4cd447"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gad2390dc88ed797c3c0aaf26c8e4cd447"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG_QUALIFIER_PIN_MODE_SHIFT</b>&#160;&#160;&#160;(7)</td></tr>
+<tr class="separator:gad2390dc88ed797c3c0aaf26c8e4cd447"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae387db77cec417f5b31ac10319d23a0e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae387db77cec417f5b31ac10319d23a0e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG_QUALIFIER_PIN_MODE_MASK</b>&#160;&#160;&#160;(0x3 &lt;&lt; SGPIO_MUX_CFG_QUALIFIER_PIN_MODE_SHIFT)</td></tr>
+<tr class="separator:gae387db77cec417f5b31ac10319d23a0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga48a51d678056d8756dccfd97303881fe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga48a51d678056d8756dccfd97303881fe"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG_QUALIFIER_PIN_MODE</b>(x)&#160;&#160;&#160;((x) &lt;&lt; SGPIO_MUX_CFG_QUALIFIER_PIN_MODE_SHIFT)</td></tr>
+<tr class="separator:ga48a51d678056d8756dccfd97303881fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5cc4f91df8bbe3d7703e2ec752a2305d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga5cc4f91df8bbe3d7703e2ec752a2305d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG_QUALIFIER_SLICE_MODE_SHIFT</b>&#160;&#160;&#160;(9)</td></tr>
+<tr class="separator:ga5cc4f91df8bbe3d7703e2ec752a2305d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0d53f83eaf1bd05c45a8a4505bbd0d71"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga0d53f83eaf1bd05c45a8a4505bbd0d71"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG_QUALIFIER_SLICE_MODE_MASK</b>&#160;&#160;&#160;(0x3 &lt;&lt; SGPIO_MUX_CFG_QUALIFIER_SLICE_MODE_SHIFT)</td></tr>
+<tr class="separator:ga0d53f83eaf1bd05c45a8a4505bbd0d71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad3e7359114181feda08464aec4a1d600"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gad3e7359114181feda08464aec4a1d600"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG_QUALIFIER_SLICE_MODE</b>(x)&#160;&#160;&#160;((x) &lt;&lt; SGPIO_MUX_CFG_QUALIFIER_SLICE_MODE_SHIFT)</td></tr>
+<tr class="separator:gad3e7359114181feda08464aec4a1d600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2f0abf50543ae613b9880912ef8f2174"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga2f0abf50543ae613b9880912ef8f2174"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG_CONCAT_ENABLE_SHIFT</b>&#160;&#160;&#160;(11)</td></tr>
+<tr class="separator:ga2f0abf50543ae613b9880912ef8f2174"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7d246a81509b7071c4828eaad62b3b1b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga7d246a81509b7071c4828eaad62b3b1b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG_CONCAT_ENABLE_MASK</b>&#160;&#160;&#160;(1 &lt;&lt; SGPIO_MUX_CFG_CONCAT_ENABLE_SHIFT)</td></tr>
+<tr class="separator:ga7d246a81509b7071c4828eaad62b3b1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacb02f13c5000c241d223832480216fea"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gacb02f13c5000c241d223832480216fea"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG_CONCAT_ENABLE</b>(x)&#160;&#160;&#160;((x) &lt;&lt; SGPIO_MUX_CFG_CONCAT_ENABLE_SHIFT)</td></tr>
+<tr class="separator:gacb02f13c5000c241d223832480216fea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4821031bb37edab9bb4635e099f1e2a9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga4821031bb37edab9bb4635e099f1e2a9"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG_CONCAT_ORDER_SHIFT</b>&#160;&#160;&#160;(12)</td></tr>
+<tr class="separator:ga4821031bb37edab9bb4635e099f1e2a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga20525ed58fcb2558807d9f2ef7280fcc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga20525ed58fcb2558807d9f2ef7280fcc"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG_CONCAT_ORDER_MASK</b>&#160;&#160;&#160;(0x3 &lt;&lt; SGPIO_MUX_CFG_CONCAT_ORDER_SHIFT)</td></tr>
+<tr class="separator:ga20525ed58fcb2558807d9f2ef7280fcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9795a91def0c2737cca0f80537e542b5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga9795a91def0c2737cca0f80537e542b5"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFG_CONCAT_ORDER</b>(x)&#160;&#160;&#160;((x) &lt;&lt; SGPIO_MUX_CFG_CONCAT_ORDER_SHIFT)</td></tr>
+<tr class="separator:ga9795a91def0c2737cca0f80537e542b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga074770f6a37097fe49256c6c521008c6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga074770f6a37097fe49256c6c521008c6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG_MATCH_MODE_SHIFT</b>&#160;&#160;&#160;(0)</td></tr>
+<tr class="separator:ga074770f6a37097fe49256c6c521008c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1c6a3201237f7b2f5f4b36a3f58fbb3f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga1c6a3201237f7b2f5f4b36a3f58fbb3f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG_MATCH_MODE_MASK</b>&#160;&#160;&#160;(1 &lt;&lt; SGPIO_SLICE_MUX_CFG_MATCH_MODE_SHIFT)</td></tr>
+<tr class="separator:ga1c6a3201237f7b2f5f4b36a3f58fbb3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga75cb6c844a6d4cbb0686a6e66c31bb6d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga75cb6c844a6d4cbb0686a6e66c31bb6d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG_MATCH_MODE</b>(x)&#160;&#160;&#160;((x) &lt;&lt; SGPIO_SLICE_MUX_CFG_MATCH_MODE_SHIFT)</td></tr>
+<tr class="separator:ga75cb6c844a6d4cbb0686a6e66c31bb6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga478f90da855e77a2a0d1734188219a91"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga478f90da855e77a2a0d1734188219a91"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG_CLK_CAPTURE_MODE_SHIFT</b>&#160;&#160;&#160;(1)</td></tr>
+<tr class="separator:ga478f90da855e77a2a0d1734188219a91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1d23812d7b2ac3d6f6469844fdb6606d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga1d23812d7b2ac3d6f6469844fdb6606d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG_CLK_CAPTURE_MODE_MASK</b>&#160;&#160;&#160;(1 &lt;&lt; SGPIO_SLICE_MUX_CFG_CLK_CAPTURE_MODE_SHIFT)</td></tr>
+<tr class="separator:ga1d23812d7b2ac3d6f6469844fdb6606d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga766e84ad5837cf9d01d1b38885bd7dbc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga766e84ad5837cf9d01d1b38885bd7dbc"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG_CLK_CAPTURE_MODE</b>(x)&#160;&#160;&#160;((x) &lt;&lt; SGPIO_SLICE_MUX_CFG_CLK_CAPTURE_MODE_SHIFT)</td></tr>
+<tr class="separator:ga766e84ad5837cf9d01d1b38885bd7dbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6fdda853ac95fbb8b4a935784371d8b1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga6fdda853ac95fbb8b4a935784371d8b1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG_CLKGEN_MODE_SHIFT</b>&#160;&#160;&#160;(2)</td></tr>
+<tr class="separator:ga6fdda853ac95fbb8b4a935784371d8b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8074e9753fba40664fb144c85b0f16f4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga8074e9753fba40664fb144c85b0f16f4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG_CLKGEN_MODE_MASK</b>&#160;&#160;&#160;(1 &lt;&lt; SGPIO_SLICE_MUX_CFG_CLKGEN_MODE_SHIFT)</td></tr>
+<tr class="separator:ga8074e9753fba40664fb144c85b0f16f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga89e27e2779dba1d71b107858ad9b75f3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga89e27e2779dba1d71b107858ad9b75f3"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG_CLKGEN_MODE</b>(x)&#160;&#160;&#160;((x) &lt;&lt; SGPIO_SLICE_MUX_CFG_CLKGEN_MODE_SHIFT)</td></tr>
+<tr class="separator:ga89e27e2779dba1d71b107858ad9b75f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga14f8ebe1605a52dbd361320b5881a3f8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga14f8ebe1605a52dbd361320b5881a3f8"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG_INV_OUT_CLK_SHIFT</b>&#160;&#160;&#160;(3)</td></tr>
+<tr class="separator:ga14f8ebe1605a52dbd361320b5881a3f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabfc8d001ce5b7436a281dceb8e76d593"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gabfc8d001ce5b7436a281dceb8e76d593"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG_INV_OUT_CLK_MASK</b>&#160;&#160;&#160;(1 &lt;&lt; SGPIO_SLICE_MUX_CFG_INV_OUT_CLK_SHIFT)</td></tr>
+<tr class="separator:gabfc8d001ce5b7436a281dceb8e76d593"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8b36c2c7ca1f24093a71147eb003fb03"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga8b36c2c7ca1f24093a71147eb003fb03"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG_INV_OUT_CLK</b>(x)&#160;&#160;&#160;((x) &lt;&lt; SGPIO_SLICE_MUX_CFG_INV_OUT_CLK_SHIFT)</td></tr>
+<tr class="separator:ga8b36c2c7ca1f24093a71147eb003fb03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacedb51fe8ca6591599c3cd66770129b5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gacedb51fe8ca6591599c3cd66770129b5"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG_DATA_CAPTURE_MODE_SHIFT</b>&#160;&#160;&#160;(4)</td></tr>
+<tr class="separator:gacedb51fe8ca6591599c3cd66770129b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga92705bb64fe0c3674dcd638342896e56"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga92705bb64fe0c3674dcd638342896e56"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG_DATA_CAPTURE_MODE_MASK</b>&#160;&#160;&#160;(0x3 &lt;&lt; SGPIO_SLICE_MUX_CFG_DATA_CAPTURE_MODE_SHIFT)</td></tr>
+<tr class="separator:ga92705bb64fe0c3674dcd638342896e56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa69c389870dda28c7a0b17cc325ba8f4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa69c389870dda28c7a0b17cc325ba8f4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG_DATA_CAPTURE_MODE</b>(x)&#160;&#160;&#160;((x) &lt;&lt; SGPIO_SLICE_MUX_CFG_DATA_CAPTURE_MODE_SHIFT)</td></tr>
+<tr class="separator:gaa69c389870dda28c7a0b17cc325ba8f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac2922234880faf1ef1fb5519db55386e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gac2922234880faf1ef1fb5519db55386e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG_PARALLEL_MODE_SHIFT</b>&#160;&#160;&#160;(6)</td></tr>
+<tr class="separator:gac2922234880faf1ef1fb5519db55386e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga87fab0343ac564f67a5192ff9b88f1cc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga87fab0343ac564f67a5192ff9b88f1cc"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG_PARALLEL_MODE_MASK</b>&#160;&#160;&#160;(0x3 &lt;&lt; SGPIO_SLICE_MUX_CFG_PARALLEL_MODE_SHIFT)</td></tr>
+<tr class="separator:ga87fab0343ac564f67a5192ff9b88f1cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6e73968b8854da9609f3e572a8d0f45a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga6e73968b8854da9609f3e572a8d0f45a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG_PARALLEL_MODE</b>(x)&#160;&#160;&#160;((x) &lt;&lt; SGPIO_SLICE_MUX_CFG_PARALLEL_MODE_SHIFT)</td></tr>
+<tr class="separator:ga6e73968b8854da9609f3e572a8d0f45a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga62db7a1d7fcc7a8c4b883d197ed7c7bd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga62db7a1d7fcc7a8c4b883d197ed7c7bd"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG_INV_QUALIFIER_SHIFT</b>&#160;&#160;&#160;(8)</td></tr>
+<tr class="separator:ga62db7a1d7fcc7a8c4b883d197ed7c7bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafb45158e189a3c3b53928dec9f6891cd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gafb45158e189a3c3b53928dec9f6891cd"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG_INV_QUALIFIER_MASK</b>&#160;&#160;&#160;(1 &lt;&lt; SGPIO_SLICE_MUX_CFG_INV_QUALIFIER_SHIFT)</td></tr>
+<tr class="separator:gafb45158e189a3c3b53928dec9f6891cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab4eea104af4304c2543fbf1239af813f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gab4eea104af4304c2543fbf1239af813f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFG_INV_QUALIFIER</b>(x)&#160;&#160;&#160;((x) &lt;&lt; SGPIO_SLICE_MUX_CFG_INV_QUALIFIER_SHIFT)</td></tr>
+<tr class="separator:gab4eea104af4304c2543fbf1239af813f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadeff8523843eccf2d0e1ee0b74d93f1b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gadeff8523843eccf2d0e1ee0b74d93f1b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_POS_POS_SHIFT</b>&#160;&#160;&#160;(0)</td></tr>
+<tr class="separator:gadeff8523843eccf2d0e1ee0b74d93f1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga93719dddc12910428e7c5729ea61a65a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga93719dddc12910428e7c5729ea61a65a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_POS_POS_MASK</b>&#160;&#160;&#160;(0xff &lt;&lt; SGPIO_POS_POS_SHIFT)</td></tr>
+<tr class="separator:ga93719dddc12910428e7c5729ea61a65a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga36ca94a4e94180f21ee489b629645fd5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga36ca94a4e94180f21ee489b629645fd5"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_POS_POS</b>(x)&#160;&#160;&#160;((x) &lt;&lt; SGPIO_POS_POS_SHIFT)</td></tr>
+<tr class="separator:ga36ca94a4e94180f21ee489b629645fd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3bddfa04890ff88193ac7f5f6daf1558"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga3bddfa04890ff88193ac7f5f6daf1558"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_POS_POS_RESET_SHIFT</b>&#160;&#160;&#160;(8)</td></tr>
+<tr class="separator:ga3bddfa04890ff88193ac7f5f6daf1558"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga83718c2c757d6f6a468f376d7c843241"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga83718c2c757d6f6a468f376d7c843241"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_POS_POS_RESET_MASK</b>&#160;&#160;&#160;(0xff &lt;&lt; SGPIO_POS_POS_RESET_SHIFT)</td></tr>
+<tr class="separator:ga83718c2c757d6f6a468f376d7c843241"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga27ffcab8e93380a2145a55b6f7cb1bec"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga27ffcab8e93380a2145a55b6f7cb1bec"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_POS_POS_RESET</b>(x)&#160;&#160;&#160;((x) &lt;&lt; SGPIO_POS_POS_RESET_SHIFT)</td></tr>
+<tr class="separator:ga27ffcab8e93380a2145a55b6f7cb1bec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9178978e8dc8f9ade2b2c7a28ebeda80"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga9178978e8dc8f9ade2b2c7a28ebeda80"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_OUT_MUX_CFGx_P_OUT_CFG_SHIFT</b>&#160;&#160;&#160;(0)</td></tr>
+<tr class="separator:ga9178978e8dc8f9ade2b2c7a28ebeda80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac0d07dd293a43c3212605683f5b052cd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gac0d07dd293a43c3212605683f5b052cd"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_OUT_MUX_CFGx_P_OUT_CFG_MASK</b>&#160;&#160;&#160;(0xf &lt;&lt; SGPIO_OUT_MUX_CFGx_P_OUT_CFG_SHIFT)</td></tr>
+<tr class="separator:gac0d07dd293a43c3212605683f5b052cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga97263cd7806b01fd46260facfc2ce559"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga97263cd7806b01fd46260facfc2ce559"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_OUT_MUX_CFGx_P_OUT_CFG</b>(x)&#160;&#160;&#160;((x) &lt;&lt; SGPIO_OUT_MUX_CFGx_P_OUT_CFG_SHIFT)</td></tr>
+<tr class="separator:ga97263cd7806b01fd46260facfc2ce559"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga298d5198cbb914135b18a31ad5ce1f9f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga298d5198cbb914135b18a31ad5ce1f9f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_OUT_MUX_CFGx_P_OE_CFG_SHIFT</b>&#160;&#160;&#160;(4)</td></tr>
+<tr class="separator:ga298d5198cbb914135b18a31ad5ce1f9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gade75e7a5d04874b05afb69fda035ceef"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gade75e7a5d04874b05afb69fda035ceef"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_OUT_MUX_CFGx_P_OE_CFG_MASK</b>&#160;&#160;&#160;(0x7 &lt;&lt; SGPIO_OUT_MUX_CFGx_P_OE_CFG_SHIFT)</td></tr>
+<tr class="separator:gade75e7a5d04874b05afb69fda035ceef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga175420c16d7cd8f2279fc70b4dd00271"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga175420c16d7cd8f2279fc70b4dd00271"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_OUT_MUX_CFGx_P_OE_CFG</b>(x)&#160;&#160;&#160;((x) &lt;&lt; SGPIO_OUT_MUX_CFGx_P_OE_CFG_SHIFT)</td></tr>
+<tr class="separator:ga175420c16d7cd8f2279fc70b4dd00271"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6b2dfab8597045069ee0ae49807f18d2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga6b2dfab8597045069ee0ae49807f18d2"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFGx_EXT_CLK_ENABLE_SHIFT</b>&#160;&#160;&#160;(0)</td></tr>
+<tr class="separator:ga6b2dfab8597045069ee0ae49807f18d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga411fba3913b6392cf3a7edfbd7586579"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga411fba3913b6392cf3a7edfbd7586579"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFGx_EXT_CLK_ENABLE</b>&#160;&#160;&#160;(1 &lt;&lt; SGPIO_MUX_CFGx_EXT_CLK_ENABLE_SHIFT)</td></tr>
+<tr class="separator:ga411fba3913b6392cf3a7edfbd7586579"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9fe92f3f98b04ce64c6c64859f5d182b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga9fe92f3f98b04ce64c6c64859f5d182b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFGx_CLK_SOURCE_PIN_MODE_SHIFT</b>&#160;&#160;&#160;(1)</td></tr>
+<tr class="separator:ga9fe92f3f98b04ce64c6c64859f5d182b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab4149baa579eb290b87a1bbe4826211d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gab4149baa579eb290b87a1bbe4826211d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFGx_CLK_SOURCE_PIN_MODE_MASK</b>&#160;&#160;&#160;(0x3 &lt;&lt; SGPIO_MUX_CFGx_CLK_SOURCE_PIN_MODE_SHIFT)</td></tr>
+<tr class="separator:gab4149baa579eb290b87a1bbe4826211d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab40e73bfda744fbda82e08bf4cd1f8e4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gab40e73bfda744fbda82e08bf4cd1f8e4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFGx_CLK_SOURCE_PIN_MODE</b>(x)&#160;&#160;&#160;((x) &lt;&lt; SGPIO_MUX_CFGx_CLK_SOURCE_PIN_MODE_SHIFT)</td></tr>
+<tr class="separator:gab40e73bfda744fbda82e08bf4cd1f8e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga42e62f196495445690e89892f8d9168d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga42e62f196495445690e89892f8d9168d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFGx_CLK_SOURCE_SLICE_MODE_SHIFT</b>&#160;&#160;&#160;(3)</td></tr>
+<tr class="separator:ga42e62f196495445690e89892f8d9168d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7cd1edab0d5800c472540de446058638"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga7cd1edab0d5800c472540de446058638"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFGx_CLK_SOURCE_SLICE_MODE_MASK</b>&#160;&#160;&#160;(0x3 &lt;&lt; SGPIO_MUX_CFGx_CLK_SOURCE_SLICE_MODE_SHIFT)</td></tr>
+<tr class="separator:ga7cd1edab0d5800c472540de446058638"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga03c556f4fbcb3291d738b2ba8a8e72b4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga03c556f4fbcb3291d738b2ba8a8e72b4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFGx_CLK_SOURCE_SLICE_MODE</b>(x)&#160;&#160;&#160;((x) &lt;&lt; SGPIO_MUX_CFGx_CLK_SOURCE_SLICE_MODE_SHIFT)</td></tr>
+<tr class="separator:ga03c556f4fbcb3291d738b2ba8a8e72b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5e9875e339799e955fd7457e7201218f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga5e9875e339799e955fd7457e7201218f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFGx_QUALIFIER_MODE_SHIFT</b>&#160;&#160;&#160;(5)</td></tr>
+<tr class="separator:ga5e9875e339799e955fd7457e7201218f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae9f130999b2644dc2a4a68bc0b53681d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae9f130999b2644dc2a4a68bc0b53681d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFGx_QUALIFIER_MODE_MASK</b>&#160;&#160;&#160;(0x3 &lt;&lt; SGPIO_MUX_CFGx_QUALIFIER_MODE_SHIFT)</td></tr>
+<tr class="separator:gae9f130999b2644dc2a4a68bc0b53681d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae699e5e88319500d04f6e298108a765f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae699e5e88319500d04f6e298108a765f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFGx_QUALIFIER_MODE</b>(x)&#160;&#160;&#160;((x) &lt;&lt; SGPIO_MUX_CFGx_QUALIFIER_MODE_SHIFT)</td></tr>
+<tr class="separator:gae699e5e88319500d04f6e298108a765f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaee6c1bf2a99016ac0735670476b6b884"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaee6c1bf2a99016ac0735670476b6b884"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFGx_QUALIFIER_PIN_MODE_SHIFT</b>&#160;&#160;&#160;(7)</td></tr>
+<tr class="separator:gaee6c1bf2a99016ac0735670476b6b884"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga609da47d024633c78c90ec23f33a6862"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga609da47d024633c78c90ec23f33a6862"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFGx_QUALIFIER_PIN_MODE_MASK</b>&#160;&#160;&#160;(0x3 &lt;&lt; SGPIO_MUX_CFGx_QUALIFIER_PIN_MODE_SHIFT)</td></tr>
+<tr class="separator:ga609da47d024633c78c90ec23f33a6862"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae82dedbf6a2bcd3078f82c5992ef53d3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae82dedbf6a2bcd3078f82c5992ef53d3"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFGx_QUALIFIER_PIN_MODE</b>(x)&#160;&#160;&#160;((x) &lt;&lt; SGPIO_MUX_CFGx_QUALIFIER_PIN_MODE_SHIFT)</td></tr>
+<tr class="separator:gae82dedbf6a2bcd3078f82c5992ef53d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa68799f27502c1d9cd49927d044d014d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa68799f27502c1d9cd49927d044d014d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFGx_QUALIFIER_SLICE_MODE_SHIFT</b>&#160;&#160;&#160;(9)</td></tr>
+<tr class="separator:gaa68799f27502c1d9cd49927d044d014d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab83d1b8925a992a7d690f372f0f7374d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gab83d1b8925a992a7d690f372f0f7374d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFGx_QUALIFIER_SLICE_MODE_MASK</b>&#160;&#160;&#160;(0x3 &lt;&lt; SGPIO_MUX_CFGx_QUALIFIER_SLICE_MODE_SHIFT)</td></tr>
+<tr class="separator:gab83d1b8925a992a7d690f372f0f7374d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6299dc4dca3d31af3e8397ec533ae941"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga6299dc4dca3d31af3e8397ec533ae941"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFGx_QUALIFIER_SLICE_MODE</b>(x)&#160;&#160;&#160;((x) &lt;&lt; SGPIO_MUX_CFG0_QUALIFIER_SLICE_MODE_SHIFT)</td></tr>
+<tr class="separator:ga6299dc4dca3d31af3e8397ec533ae941"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga209e860c95ac05a376d11cf1bf19484f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga209e860c95ac05a376d11cf1bf19484f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFGx_CONCAT_ENABLE_SHIFT</b>&#160;&#160;&#160;(11)</td></tr>
+<tr class="separator:ga209e860c95ac05a376d11cf1bf19484f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac72914a6fd22104bbc9ce6254067b20f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gac72914a6fd22104bbc9ce6254067b20f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFGx_CONCAT_ENABLE</b>&#160;&#160;&#160;(1 &lt;&lt; SGPIO_MUX_CFGx_CONCAT_ENABLE_SHIFT)</td></tr>
+<tr class="separator:gac72914a6fd22104bbc9ce6254067b20f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf0b7946bfd3ad37372762a526a74c543"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaf0b7946bfd3ad37372762a526a74c543"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFGx_CONCAT_ORDER_SHIFT</b>&#160;&#160;&#160;(12)</td></tr>
+<tr class="separator:gaf0b7946bfd3ad37372762a526a74c543"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8f865f17bcc7d6bd6800055efce165fb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga8f865f17bcc7d6bd6800055efce165fb"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFGx_CONCAT_ORDER_MASK</b>&#160;&#160;&#160;(0x3 &lt;&lt; SGPIO_MUX_CFGx_CONCAT_ORDER_SHIFT)</td></tr>
+<tr class="separator:ga8f865f17bcc7d6bd6800055efce165fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaba2d1bf6da5c52a93951aff86ce60e64"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaba2d1bf6da5c52a93951aff86ce60e64"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_MUX_CFGx_CONCAT_ORDER</b>(x)&#160;&#160;&#160;((x) &lt;&lt; SGPIO_MUX_CFGx_CONCAT_ORDER_SHIFT)</td></tr>
+<tr class="separator:gaba2d1bf6da5c52a93951aff86ce60e64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabb334c7b12d3f06efe8b037b921dde10"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gabb334c7b12d3f06efe8b037b921dde10"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFGx_MATCH_MODE_SHIFT</b>&#160;&#160;&#160;(0)</td></tr>
+<tr class="separator:gabb334c7b12d3f06efe8b037b921dde10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga481bcfdcf9e5ccc4274a612e0084dd85"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga481bcfdcf9e5ccc4274a612e0084dd85"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFGx_MATCH_MODE</b>&#160;&#160;&#160;(1 &lt;&lt; SGPIO_SLICE_MUX_CFG0_MATCH_MODE_SHIFT)</td></tr>
+<tr class="separator:ga481bcfdcf9e5ccc4274a612e0084dd85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga94e6a908ee5d3d2e493a645507b628d5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga94e6a908ee5d3d2e493a645507b628d5"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFGx_CLK_CAPTURE_MODE_SHIFT</b>&#160;&#160;&#160;(1)</td></tr>
+<tr class="separator:ga94e6a908ee5d3d2e493a645507b628d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0a6e7d033b618a80abc1aa95c636feb4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga0a6e7d033b618a80abc1aa95c636feb4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFGx_CLK_CAPTURE_MODE</b>&#160;&#160;&#160;(1 &lt;&lt; SGPIO_SLICE_MUX_CFGx_CLK_CAPTURE_MODE_SHIFT)</td></tr>
+<tr class="separator:ga0a6e7d033b618a80abc1aa95c636feb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga130bd4e6641174469a9aeee80a1e4b00"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga130bd4e6641174469a9aeee80a1e4b00"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFGx_CLKGEN_MODE_SHIFT</b>&#160;&#160;&#160;(2)</td></tr>
+<tr class="separator:ga130bd4e6641174469a9aeee80a1e4b00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga97f8e6b38fe25b5520d6b7e7cdf3c847"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga97f8e6b38fe25b5520d6b7e7cdf3c847"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFGx_CLKGEN_MODE</b>&#160;&#160;&#160;(1 &lt;&lt; SGPIO_SLICE_MUX_CFGx_CLKGEN_MODE_SHIFT)</td></tr>
+<tr class="separator:ga97f8e6b38fe25b5520d6b7e7cdf3c847"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac5549d374e2a51de162ac2fb107e7a53"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gac5549d374e2a51de162ac2fb107e7a53"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFGx_INV_OUT_CLK_SHIFT</b>&#160;&#160;&#160;(3)</td></tr>
+<tr class="separator:gac5549d374e2a51de162ac2fb107e7a53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad34b1acdbd26f66482d246e7f1cc51e1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gad34b1acdbd26f66482d246e7f1cc51e1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFGx_INV_OUT_CLK</b>&#160;&#160;&#160;(1 &lt;&lt; SGPIO_SLICE_MUX_CFGx_INV_OUT_CLK_SHIFT)</td></tr>
+<tr class="separator:gad34b1acdbd26f66482d246e7f1cc51e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac70bb25cadf3da1c22cb722298b373cc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gac70bb25cadf3da1c22cb722298b373cc"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFGx_DATA_CAPTURE_MODE_SHIFT</b>&#160;&#160;&#160;(4)</td></tr>
+<tr class="separator:gac70bb25cadf3da1c22cb722298b373cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1d11012a761327a1134527b875a952f8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga1d11012a761327a1134527b875a952f8"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFGx_DATA_CAPTURE_MODE_MASK</b>&#160;&#160;&#160;(0x3 &lt;&lt; SGPIO_SLICE_MUX_CFGx_DATA_CAPTURE_MODE_SHIFT)</td></tr>
+<tr class="separator:ga1d11012a761327a1134527b875a952f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6df0799b4d0966bf924557edfc4cc19c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga6df0799b4d0966bf924557edfc4cc19c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFGx_DATA_CAPTURE_MODE</b>(x)&#160;&#160;&#160;((x) &lt;&lt; SGPIO_SLICE_MUX_CFGx_DATA_CAPTURE_MODE_SHIFT)</td></tr>
+<tr class="separator:ga6df0799b4d0966bf924557edfc4cc19c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae4a8a1027393a633b0a830bcd00154db"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae4a8a1027393a633b0a830bcd00154db"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFGx_PARALLEL_MODE_SHIFT</b>&#160;&#160;&#160;(6)</td></tr>
+<tr class="separator:gae4a8a1027393a633b0a830bcd00154db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf3c04a2a5f79a109cae3915dadb04ce3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaf3c04a2a5f79a109cae3915dadb04ce3"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFGx_PARALLEL_MODE_MASK</b>&#160;&#160;&#160;(0x3 &lt;&lt; SGPIO_SLICE_MUX_CFGx_PARALLEL_MODE_SHIFT)</td></tr>
+<tr class="separator:gaf3c04a2a5f79a109cae3915dadb04ce3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7006eb55b3936df518697c94b314d8cf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga7006eb55b3936df518697c94b314d8cf"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFGx_PARALLEL_MODE</b>(x)&#160;&#160;&#160;((x) &lt;&lt; SGPIO_SLICE_MUX_CFGx_PARALLEL_MODE_SHIFT)</td></tr>
+<tr class="separator:ga7006eb55b3936df518697c94b314d8cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1874c139cfc54ef972371098b6e3f192"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga1874c139cfc54ef972371098b6e3f192"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFGx_INV_QUALIFIER_SHIFT</b>&#160;&#160;&#160;(8)</td></tr>
+<tr class="separator:ga1874c139cfc54ef972371098b6e3f192"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga23fc2b87f6f4e1876d1067554139b94d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga23fc2b87f6f4e1876d1067554139b94d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_SLICE_MUX_CFGx_INV_QUALIFIER</b>&#160;&#160;&#160;(1 &lt;&lt; SGPIO_SLICE_MUX_CFGx_INV_QUALIFIER_SHIFT)</td></tr>
+<tr class="separator:ga23fc2b87f6f4e1876d1067554139b94d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2c45b50d37779eb2b73d8185376eb0d1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga2c45b50d37779eb2b73d8185376eb0d1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_POSx_POS_SHIFT</b>&#160;&#160;&#160;(0)</td></tr>
+<tr class="separator:ga2c45b50d37779eb2b73d8185376eb0d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga296ad8acce96bde62885768ca25963a9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga296ad8acce96bde62885768ca25963a9"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_POSx_POS_MASK</b>&#160;&#160;&#160;(0xff &lt;&lt; SGPIO_POSx_POS_SHIFT)</td></tr>
+<tr class="separator:ga296ad8acce96bde62885768ca25963a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga147b45cd9fcd829953680a3e12183527"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga147b45cd9fcd829953680a3e12183527"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_POSx_POS</b>(x)&#160;&#160;&#160;((x) &lt;&lt; SGPIO_POSx_POS_SHIFT)</td></tr>
+<tr class="separator:ga147b45cd9fcd829953680a3e12183527"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga95f256d5d69d6bf910d23721c52af19d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga95f256d5d69d6bf910d23721c52af19d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_POSx_POS_RESET_SHIFT</b>&#160;&#160;&#160;(8)</td></tr>
+<tr class="separator:ga95f256d5d69d6bf910d23721c52af19d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa5028de811ede794b7ff7b3f2fd4d096"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa5028de811ede794b7ff7b3f2fd4d096"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_POSx_POS_RESET_MASK</b>&#160;&#160;&#160;(0xff &lt;&lt; SGPIO_POSx_POS_RESET_SHIFT)</td></tr>
+<tr class="separator:gaa5028de811ede794b7ff7b3f2fd4d096"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab6a9600a45b7a54f6fe2fb2a09d28705"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gab6a9600a45b7a54f6fe2fb2a09d28705"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO_POSx_POS_RESET</b>(x)&#160;&#160;&#160;((x) &lt;&lt; SGPIO_POSx_POS_RESET_SHIFT)</td></tr>
+<tr class="separator:gab6a9600a45b7a54f6fe2fb2a09d28705"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad853043274f9d4edeb3127b2790a2fd9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gad853043274f9d4edeb3127b2790a2fd9"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SGPIO</b>&#160;&#160;&#160;((<a class="el" href="structsgpio__t.html">sgpio_t</a> *)SGPIO_PORT_BASE)</td></tr>
+<tr class="separator:gad853043274f9d4edeb3127b2790a2fd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<p><b>Defined Constants and Types for the LPC43xx SDIO</b> </p>
+<dl class="section version"><dt>版本</dt><dd>1.0.0</dd></dl>
+<dl class="section author"><dt>作者</dt><dd> &copy;  2012 Michael Ossmann <a href="#" onclick="location.href='mai'+'lto:'+'mik'+'e@'+'oss'+'ma'+'nn.'+'co'+'m'; return false;">mike@<span style="display: none;">.nosp@m.</span>ossm<span style="display: none;">.nosp@m.</span>ann.c<span style="display: none;">.nosp@m.</span>om</a></dd></dl>
+<dl class="section date"><dt>日期</dt><dd>10 March 2013</dd></dl>
+<p>LGPL License Terms <a class="el" href="lgpl_license.html">libopencm3 License</a> </p>
+<h2 class="groupheader">宏定义说明</h2>
+<a class="anchor" id="gae9f067ff4ef874dbf997a043c64ee7db"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SGPIO_COUNT</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">slice</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>值:</b><div class="fragment"><div class="line">MMIO32(SGPIO_PORT_BASE + 0x180 + \</div><div class="line">                        (slice * 0x04))</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ga23885e3f72bc5475f56abead09266dfb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SGPIO_MUX_CFG</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">slice</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>值:</b><div class="fragment"><div class="line">MMIO32(SGPIO_PORT_BASE + 0x40 + \</div><div class="line">                        (slice * 0x04))</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="gadb785fd672eaab69142073e76c9b5c25"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SGPIO_POS</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">slice</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>值:</b><div class="fragment"><div class="line">MMIO32(SGPIO_PORT_BASE + 0x1C0 + \</div><div class="line">                        (slice * 0x04))</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ga48c2cd6f4ca986886a30fd372cc4e639"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SGPIO_PRESET</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">slice</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>值:</b><div class="fragment"><div class="line">MMIO32(SGPIO_PORT_BASE + 0x140 + \</div><div class="line">                        (slice * 0x04))</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ga68310c2bb77461c8aaeac6210971f1b4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SGPIO_REG</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">slice</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>值:</b><div class="fragment"><div class="line">MMIO32(SGPIO_PORT_BASE + 0xC0 + \</div><div class="line">                        (slice * 0x04))</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="gacd8f2788f95cc872689d4dd7792a1451"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SGPIO_REG_SS</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">slice</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>值:</b><div class="fragment"><div class="line">MMIO32(SGPIO_PORT_BASE + 0x100 + \</div><div class="line">                        (slice * 0x04))</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ga524fd4e5aa731c2929c22c04bdf0d314"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SGPIO_SLICE_MUX_CFG</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">slice</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>值:</b><div class="fragment"><div class="line">MMIO32(SGPIO_PORT_BASE + 0x80 + \</div><div class="line">                        (slice * 0x04))</div></div><!-- fragment -->
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>
