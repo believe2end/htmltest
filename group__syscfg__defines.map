@@ -1,7 +1,0 @@
-<map id="SYSCFG Defines" name="SYSCFG Defines">
-<area shape="rect" id="node1" href="$group__STM32F4xx__defines.html" title="Defined Constants and Types for the STM32F4xx series. " alt="" coords="5,5,148,32"/>
-<area shape="rect" id="node2" href="$group__STM32F3xx__defines.html" title="Defined Constants and Types for the STM32F3xx series. " alt="" coords="5,56,148,83"/>
-<area shape="rect" id="node3" href="$group__STM32F2xx__defines.html" title="Defined Constants and Types for the STM32F2xx series. " alt="" coords="5,107,148,133"/>
-<area shape="rect" id="node5" href="$group__STM32F0xx__defines.html" title="Defined Constants and Types for the STM32F0xx series. " alt="" coords="5,157,148,184"/>
-<area shape="rect" id="node6" href="$group__STM32L1xx__defines.html" title="Defined Constants and Types for the STM32L1xx series. " alt="" coords="6,208,147,235"/>
-</map>
